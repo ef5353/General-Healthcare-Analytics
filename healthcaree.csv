@@ -1,0 +1,601 @@
+Patient_ID,Name,Age,Gender,Hospital,Doctor,Diagnosis,Treatment,Admission_Date,Discharge_Date,Treatment_Cost_USD,Insurance_Coverage_%,Follow_Up_Required,City,Patient_Satisfaction_Score
+P1000,Patient_0,52,Female,MediLife Clinic,Dr. Rizwan,Hypertension,Physical Therapy,2023-01-01,2023-01-02,6242,93,No,Islamabad,1
+P1001,Patient_1,15,Male,Hope Health Center,Dr. Sara,Fracture,Physical Therapy,2023-01-02,2023-01-03,12209,46,Yes,Karachi,2
+P1002,Patient_2,72,Male,Central Hospital,Dr. Ali,Arthritis,Physical Therapy,2023-01-03,2023-01-04,5726,34,Yes,Karachi,8
+P1003,Patient_3,61,Female,Central Hospital,Dr. Khan,Arthritis,Chemotherapy,2023-01-04,2023-01-05,8887,18,No,Quetta,1
+P1004,Patient_4,21,Male,Sunrise Medical,Dr. Ali,Migraine,Chemotherapy,2023-01-05,2023-01-06,10196,7,Yes,Quetta,8
+P1005,Patient_5,83,Male,CityCare Hospital,Dr. Sara,Flu,Observation,2023-01-06,2023-01-07,8572,25,Yes,Quetta,8
+P1006,Patient_6,87,Male,Hope Health Center,Dr. Fatima,COVID-19,Surgery,2023-01-07,2023-01-08,523,70,No,Peshawar,2
+P1007,Patient_7,75,Female,Wellness Point,Dr. Khan,Asthma,Physical Therapy,2023-01-08,2023-01-09,7099,29,Yes,Quetta,4
+P1008,Patient_8,75,Female,Central Hospital,Dr. Fatima,Allergy,Physical Therapy,2023-01-09,2023-01-10,12657,6,No,Karachi,6
+P1009,Patient_9,88,Female,Green Valley Hospital,Dr. Adeel,Flu,Surgery,2023-01-10,2023-01-11,4349,66,Yes,Quetta,9
+P1010,Patient_10,24,Female,Hope Health Center,Dr. Fatima,Migraine,Medication,2023-01-11,2023-01-12,1850,64,No,Lahore,8
+P1011,Patient_11,3,Female,Sunrise Medical,Dr. Adeel,Fracture,Physical Therapy,2023-01-12,2023-01-13,4857,35,Yes,Quetta,8
+P1012,Patient_12,22,Female,Wellness Point,Dr. Adeel,Asthma,Observation,2023-01-13,2023-01-14,2067,24,No,Peshawar,7
+P1013,Patient_13,53,Female,CityCare Hospital,Dr. Fatima,Migraine,Vaccination,2023-01-14,2023-01-15,4188,36,No,Lahore,9
+P1014,Patient_14,2,Male,CityCare Hospital,Dr. Khan,COVID-19,Vaccination,2023-01-15,2023-01-16,4278,0,No,Karachi,2
+P1015,Patient_15,88,Male,Sunrise Medical,Dr. Zain,COVID-19,Therapy,2023-01-16,2023-01-17,7889,14,No,Karachi,3
+P1016,Patient_16,30,Male,Sunrise Medical,Dr. Sara,COVID-19,Therapy,2023-01-17,2023-01-18,3046,36,Yes,Islamabad,8
+P1017,Patient_17,38,Male,Green Valley Hospital,Dr. Ali,Flu,Vaccination,2023-01-18,2023-01-19,9741,12,Yes,Lahore,6
+P1018,Patient_18,2,Male,Central Hospital,Dr. Ali,Flu,Vaccination,2023-01-19,2023-01-20,5494,7,No,Islamabad,9
+P1019,Patient_19,64,Male,CityCare Hospital,Dr. Sara,Allergy,Chemotherapy,2023-01-20,2023-01-21,7980,4,Yes,Lahore,4
+P1020,Patient_20,60,Male,Wellness Point,Dr. Rizwan,Allergy,Observation,2023-01-21,2023-01-22,10623,59,Yes,Lahore,8
+P1021,Patient_21,21,Female,Hope Health Center,Dr. Rizwan,Fracture,Surgery,2023-01-22,2023-01-23,5175,72,Yes,Peshawar,3
+P1022,Patient_22,33,Female,Wellness Point,Dr. Adeel,Asthma,Therapy,2023-01-23,2023-01-24,10512,0,Yes,Islamabad,3
+P1023,Patient_23,76,Male,MediLife Clinic,Dr. Adeel,Diabetes,Chemotherapy,2023-01-24,2023-01-25,12081,35,Yes,Peshawar,8
+P1024,Patient_24,58,Male,MediLife Clinic,Dr. Khan,Diabetes,Chemotherapy,2023-01-25,2023-01-26,7330,34,No,Lahore,5
+P1025,Patient_25,22,Female,Sunrise Medical,Dr. Sana,Migraine,Surgery,2023-01-26,2023-01-27,11102,65,No,Karachi,3
+P1026,Patient_26,89,Male,Green Valley Hospital,Dr. Fatima,COVID-19,Chemotherapy,2023-01-27,2023-01-28,14047,62,No,Lahore,1
+P1027,Patient_27,49,Male,MediLife Clinic,Dr. Adeel,Asthma,Observation,2023-01-28,2023-01-29,13786,22,No,Peshawar,3
+P1028,Patient_28,59,Female,CityCare Hospital,Dr. Ali,Arthritis,Vaccination,2023-01-29,2023-01-30,13020,8,Yes,Islamabad,9
+P1029,Patient_29,42,Male,Wellness Point,Dr. Khan,Flu,Physical Therapy,2023-01-30,2023-01-31,1631,33,Yes,Islamabad,5
+P1030,Patient_30,60,Female,Wellness Point,Dr. Fatima,Heart Disease,Surgery,2023-01-31,2023-02-01,13174,45,No,Peshawar,2
+P1031,Patient_31,80,Male,Sunrise Medical,Dr. Khan,Hypertension,Vaccination,2023-02-01,2023-02-02,3090,77,Yes,Islamabad,7
+P1032,Patient_32,15,Female,Central Hospital,Dr. Fatima,Fracture,Vaccination,2023-02-02,2023-02-03,7255,3,Yes,Quetta,2
+P1033,Patient_33,62,Female,Central Hospital,Dr. Fatima,COVID-19,Medication,2023-02-03,2023-02-04,4593,29,No,Karachi,4
+P1034,Patient_34,62,Female,Hope Health Center,Dr. Sara,COVID-19,Surgery,2023-02-04,2023-02-05,9435,94,Yes,Karachi,7
+P1035,Patient_35,47,Male,Sunrise Medical,Dr. Adeel,COVID-19,Chemotherapy,2023-02-05,2023-02-06,1033,74,No,Karachi,4
+P1036,Patient_36,62,Female,Hope Health Center,Dr. Zain,Flu,Physical Therapy,2023-02-06,2023-02-07,1560,98,No,Islamabad,7
+P1037,Patient_37,51,Male,Central Hospital,Dr. Khan,Flu,Surgery,2023-02-07,2023-02-08,14240,71,Yes,Islamabad,7
+P1038,Patient_38,55,Male,Sunrise Medical,Dr. Zain,Hypertension,Chemotherapy,2023-02-08,2023-02-09,2823,2,Yes,Lahore,1
+P1039,Patient_39,64,Male,Sunrise Medical,Dr. Khan,Arthritis,Vaccination,2023-02-09,2023-02-10,10804,13,No,Lahore,6
+P1040,Patient_40,3,Male,Sunrise Medical,Dr. Sara,Asthma,Physical Therapy,2023-02-10,2023-02-11,385,59,No,Karachi,9
+P1041,Patient_41,51,Female,Central Hospital,Dr. Ali,COVID-19,Chemotherapy,2023-02-11,2023-02-12,364,76,Yes,Quetta,2
+P1042,Patient_42,7,Female,Hope Health Center,Dr. Zain,Diabetes,Observation,2023-02-12,2023-02-13,10659,44,No,Lahore,3
+P1043,Patient_43,21,Male,Hope Health Center,Dr. Ali,Allergy,Chemotherapy,2023-02-13,2023-02-14,6916,95,No,Lahore,5
+P1044,Patient_44,73,Male,Sunrise Medical,Dr. Rizwan,Diabetes,Medication,2023-02-14,2023-02-15,11739,33,No,Islamabad,9
+P1045,Patient_45,39,Female,MediLife Clinic,Dr. Adeel,Migraine,Vaccination,2023-02-15,2023-02-16,14524,44,Yes,Quetta,4
+P1046,Patient_46,18,Male,Green Valley Hospital,Dr. Adeel,Diabetes,Chemotherapy,2023-02-16,2023-02-17,14065,60,No,Karachi,1
+P1047,Patient_47,4,Female,Central Hospital,Dr. Sana,Migraine,Therapy,2023-02-17,2023-02-18,13614,82,Yes,Lahore,4
+P1048,Patient_48,89,Male,Green Valley Hospital,Dr. Sara,Heart Disease,Therapy,2023-02-18,2023-02-19,13208,15,No,Quetta,6
+P1049,Patient_49,60,Male,Green Valley Hospital,Dr. Ali,Allergy,Medication,2023-02-19,2023-02-20,1862,65,Yes,Quetta,5
+P1050,Patient_50,14,Female,Hope Health Center,Dr. Fatima,Diabetes,Observation,2023-02-20,2023-02-21,11340,39,No,Karachi,1
+P1051,Patient_51,9,Male,Hope Health Center,Dr. Khan,Heart Disease,Vaccination,2023-02-21,2023-02-22,10673,16,Yes,Quetta,4
+P1052,Patient_52,53,Female,MediLife Clinic,Dr. Adeel,Fracture,Surgery,2023-02-22,2023-02-23,10561,33,Yes,Quetta,6
+P1053,Patient_53,2,Male,Green Valley Hospital,Dr. Zain,Asthma,Medication,2023-02-23,2023-02-24,140,15,Yes,Quetta,4
+P1054,Patient_54,84,Male,Green Valley Hospital,Dr. Khan,Heart Disease,Observation,2023-02-24,2023-02-25,5927,59,No,Lahore,9
+P1055,Patient_55,60,Male,Sunrise Medical,Dr. Khan,Asthma,Surgery,2023-02-25,2023-02-26,8359,65,No,Karachi,5
+P1056,Patient_56,71,Female,Hope Health Center,Dr. Sana,Diabetes,Therapy,2023-02-26,2023-02-27,1087,65,No,Quetta,8
+P1057,Patient_57,44,Male,Green Valley Hospital,Dr. Ali,Arthritis,Therapy,2023-02-27,2023-02-28,14187,89,Yes,Quetta,9
+P1058,Patient_58,8,Male,Wellness Point,Dr. Adeel,Heart Disease,Surgery,2023-02-28,2023-03-01,14949,12,No,Lahore,5
+P1059,Patient_59,47,Male,MediLife Clinic,Dr. Khan,Allergy,Medication,2023-03-01,2023-03-02,7904,55,Yes,Karachi,6
+P1060,Patient_60,35,Male,Wellness Point,Dr. Adeel,Diabetes,Therapy,2023-03-02,2023-03-03,7889,30,No,Islamabad,1
+P1061,Patient_61,78,Female,Wellness Point,Dr. Fatima,COVID-19,Vaccination,2023-03-03,2023-03-04,5817,33,Yes,Lahore,7
+P1062,Patient_62,81,Female,Central Hospital,Dr. Sana,Flu,Physical Therapy,2023-03-04,2023-03-05,12300,38,Yes,Karachi,4
+P1063,Patient_63,36,Male,Central Hospital,Dr. Fatima,Heart Disease,Chemotherapy,2023-03-05,2023-03-06,14043,66,Yes,Quetta,2
+P1064,Patient_64,50,Female,MediLife Clinic,Dr. Adeel,Allergy,Surgery,2023-03-06,2023-03-07,3298,7,No,Karachi,5
+P1065,Patient_65,4,Male,Wellness Point,Dr. Rizwan,Fracture,Surgery,2023-03-07,2023-03-08,5474,86,No,Karachi,3
+P1066,Patient_66,2,Male,Green Valley Hospital,Dr. Zain,COVID-19,Therapy,2023-03-08,2023-03-09,4890,77,No,Karachi,6
+P1067,Patient_67,6,Male,Hope Health Center,Dr. Adeel,Fracture,Medication,2023-03-09,2023-03-10,7283,54,Yes,Islamabad,8
+P1068,Patient_68,54,Female,MediLife Clinic,Dr. Ali,Diabetes,Vaccination,2023-03-10,2023-03-11,2624,26,Yes,Karachi,7
+P1069,Patient_69,4,Female,Sunrise Medical,Dr. Khan,Flu,Medication,2023-03-11,2023-03-12,9377,92,No,Islamabad,3
+P1070,Patient_70,54,Female,Wellness Point,Dr. Khan,Heart Disease,Observation,2023-03-12,2023-03-13,2579,52,No,Quetta,8
+P1071,Patient_71,63,Female,MediLife Clinic,Dr. Fatima,Heart Disease,Observation,2023-03-13,2023-03-14,9985,38,No,Islamabad,2
+P1072,Patient_72,18,Female,CityCare Hospital,Dr. Zain,Arthritis,Physical Therapy,2023-03-14,2023-03-15,10607,64,Yes,Quetta,9
+P1073,Patient_73,44,Female,CityCare Hospital,Dr. Sana,Arthritis,Therapy,2023-03-15,2023-03-16,5254,16,Yes,Quetta,4
+P1074,Patient_74,34,Female,Central Hospital,Dr. Rizwan,Diabetes,Therapy,2023-03-16,2023-03-17,878,29,Yes,Islamabad,1
+P1075,Patient_75,74,Female,Hope Health Center,Dr. Sara,Diabetes,Therapy,2023-03-17,2023-03-18,12881,52,Yes,Lahore,8
+P1076,Patient_76,62,Female,Green Valley Hospital,Dr. Zain,Flu,Physical Therapy,2023-03-18,2023-03-19,9877,12,Yes,Peshawar,7
+P1077,Patient_77,14,Male,Hope Health Center,Dr. Khan,Arthritis,Observation,2023-03-19,2023-03-20,1592,20,No,Karachi,5
+P1078,Patient_78,48,Female,Hope Health Center,Dr. Ali,Allergy,Medication,2023-03-20,2023-03-21,14178,18,Yes,Peshawar,5
+P1079,Patient_79,15,Female,Hope Health Center,Dr. Zain,Allergy,Physical Therapy,2023-03-21,2023-03-22,760,52,Yes,Karachi,7
+P1080,Patient_80,72,Female,Hope Health Center,Dr. Fatima,Flu,Physical Therapy,2023-03-22,2023-03-23,1448,18,Yes,Karachi,5
+P1081,Patient_81,78,Female,Sunrise Medical,Dr. Fatima,Allergy,Medication,2023-03-23,2023-03-24,13715,56,Yes,Quetta,8
+P1082,Patient_82,87,Female,Sunrise Medical,Dr. Sara,Migraine,Therapy,2023-03-24,2023-03-25,9591,24,Yes,Karachi,6
+P1083,Patient_83,62,Female,Central Hospital,Dr. Ali,Asthma,Vaccination,2023-03-25,2023-03-26,12232,85,No,Karachi,5
+P1084,Patient_84,40,Female,MediLife Clinic,Dr. Sana,Flu,Medication,2023-03-26,2023-03-27,10278,30,Yes,Islamabad,9
+P1085,Patient_85,85,Female,CityCare Hospital,Dr. Zain,Flu,Observation,2023-03-27,2023-03-28,7951,80,Yes,Peshawar,2
+P1086,Patient_86,80,Female,Hope Health Center,Dr. Ali,Hypertension,Surgery,2023-03-28,2023-03-29,7256,54,Yes,Islamabad,1
+P1087,Patient_87,82,Female,Central Hospital,Dr. Sana,COVID-19,Surgery,2023-03-29,2023-03-30,2144,22,No,Karachi,8
+P1088,Patient_88,53,Female,MediLife Clinic,Dr. Ali,COVID-19,Chemotherapy,2023-03-30,2023-03-31,7468,31,No,Quetta,3
+P1089,Patient_89,24,Male,CityCare Hospital,Dr. Ali,Migraine,Chemotherapy,2023-03-31,2023-04-01,3616,61,No,Islamabad,7
+P1090,Patient_90,26,Male,Wellness Point,Dr. Adeel,Arthritis,Physical Therapy,2023-04-01,2023-04-02,14316,73,Yes,Islamabad,8
+P1091,Patient_91,89,Female,Green Valley Hospital,Dr. Fatima,Diabetes,Surgery,2023-04-02,2023-04-03,13735,9,No,Lahore,6
+P1092,Patient_92,60,Female,Sunrise Medical,Dr. Zain,Diabetes,Vaccination,2023-04-03,2023-04-04,9350,99,Yes,Karachi,9
+P1093,Patient_93,41,Male,Wellness Point,Dr. Ali,Fracture,Therapy,2023-04-04,2023-04-05,9268,71,Yes,Quetta,7
+P1094,Patient_94,29,Female,CityCare Hospital,Dr. Zain,Migraine,Observation,2023-04-05,2023-04-06,4677,53,No,Islamabad,5
+P1095,Patient_95,15,Male,Wellness Point,Dr. Sara,Flu,Chemotherapy,2023-04-06,2023-04-07,827,51,Yes,Islamabad,8
+P1096,Patient_96,45,Male,Green Valley Hospital,Dr. Ali,Migraine,Vaccination,2023-04-07,2023-04-08,10819,19,Yes,Quetta,2
+P1097,Patient_97,65,Male,Central Hospital,Dr. Khan,Migraine,Observation,2023-04-08,2023-04-09,11428,31,Yes,Karachi,7
+P1098,Patient_98,89,Male,CityCare Hospital,Dr. Fatima,Migraine,Observation,2023-04-09,2023-04-10,13419,13,No,Lahore,4
+P1099,Patient_99,71,Male,Wellness Point,Dr. Khan,COVID-19,Therapy,2023-04-10,2023-04-11,7568,49,Yes,Islamabad,9
+P1100,Patient_100,9,Female,Sunrise Medical,Dr. Zain,Migraine,Physical Therapy,2023-04-11,2023-04-12,442,27,Yes,Lahore,1
+P1101,Patient_101,88,Male,Sunrise Medical,Dr. Zain,Asthma,Surgery,2023-04-12,2023-04-13,1547,52,No,Peshawar,7
+P1102,Patient_102,1,Female,MediLife Clinic,Dr. Fatima,Diabetes,Therapy,2023-04-13,2023-04-14,10671,23,Yes,Karachi,6
+P1103,Patient_103,8,Female,Wellness Point,Dr. Zain,Fracture,Vaccination,2023-04-14,2023-04-15,6681,78,Yes,Peshawar,8
+P1104,Patient_104,88,Male,Hope Health Center,Dr. Khan,Asthma,Physical Therapy,2023-04-15,2023-04-16,11951,21,No,Peshawar,5
+P1105,Patient_105,63,Male,Wellness Point,Dr. Ali,Fracture,Vaccination,2023-04-16,2023-04-17,6417,29,Yes,Peshawar,1
+P1106,Patient_106,11,Female,Central Hospital,Dr. Ali,Hypertension,Physical Therapy,2023-04-17,2023-04-18,14994,62,Yes,Karachi,1
+P1107,Patient_107,81,Male,CityCare Hospital,Dr. Adeel,Fracture,Chemotherapy,2023-04-18,2023-04-19,626,3,Yes,Karachi,9
+P1108,Patient_108,8,Male,CityCare Hospital,Dr. Sara,Diabetes,Vaccination,2023-04-19,2023-04-20,10188,76,Yes,Quetta,6
+P1109,Patient_109,35,Female,Central Hospital,Dr. Zain,Diabetes,Therapy,2023-04-20,2023-04-21,13046,58,Yes,Lahore,5
+P1110,Patient_110,35,Female,Wellness Point,Dr. Khan,Migraine,Physical Therapy,2023-04-21,2023-04-22,10365,86,No,Lahore,1
+P1111,Patient_111,33,Male,Central Hospital,Dr. Zain,Heart Disease,Physical Therapy,2023-04-22,2023-04-23,13207,7,No,Quetta,6
+P1112,Patient_112,5,Female,Green Valley Hospital,Dr. Zain,Hypertension,Observation,2023-04-23,2023-04-24,6848,81,No,Quetta,6
+P1113,Patient_113,41,Male,Central Hospital,Dr. Sana,Flu,Observation,2023-04-24,2023-04-25,505,11,No,Peshawar,3
+P1114,Patient_114,28,Male,Sunrise Medical,Dr. Adeel,Allergy,Medication,2023-04-25,2023-04-26,14667,30,Yes,Quetta,8
+P1115,Patient_115,7,Male,Central Hospital,Dr. Khan,Fracture,Vaccination,2023-04-26,2023-04-27,14968,77,Yes,Islamabad,1
+P1116,Patient_116,73,Female,CityCare Hospital,Dr. Khan,Heart Disease,Observation,2023-04-27,2023-04-28,8086,33,Yes,Lahore,1
+P1117,Patient_117,72,Female,Sunrise Medical,Dr. Zain,Migraine,Medication,2023-04-28,2023-04-29,9865,81,Yes,Quetta,6
+P1118,Patient_118,12,Female,CityCare Hospital,Dr. Adeel,COVID-19,Chemotherapy,2023-04-29,2023-04-30,14199,97,Yes,Islamabad,1
+P1119,Patient_119,34,Female,MediLife Clinic,Dr. Ali,Flu,Chemotherapy,2023-04-30,2023-05-01,12892,74,No,Islamabad,6
+P1120,Patient_120,33,Female,Hope Health Center,Dr. Khan,Arthritis,Observation,2023-05-01,2023-05-02,3840,75,No,Islamabad,1
+P1121,Patient_121,48,Male,CityCare Hospital,Dr. Ali,Heart Disease,Vaccination,2023-05-02,2023-05-03,12566,48,Yes,Islamabad,6
+P1122,Patient_122,23,Male,Sunrise Medical,Dr. Adeel,COVID-19,Physical Therapy,2023-05-03,2023-05-04,12519,78,Yes,Peshawar,3
+P1123,Patient_123,62,Male,MediLife Clinic,Dr. Ali,Hypertension,Surgery,2023-05-04,2023-05-05,1946,56,Yes,Islamabad,8
+P1124,Patient_124,88,Male,CityCare Hospital,Dr. Fatima,Migraine,Vaccination,2023-05-05,2023-05-06,1578,94,No,Peshawar,6
+P1125,Patient_125,37,Female,Green Valley Hospital,Dr. Sana,Flu,Therapy,2023-05-06,2023-05-07,10687,92,Yes,Peshawar,1
+P1126,Patient_126,44,Male,Central Hospital,Dr. Rizwan,Flu,Chemotherapy,2023-05-07,2023-05-08,14975,25,Yes,Islamabad,5
+P1127,Patient_127,86,Female,Hope Health Center,Dr. Khan,Flu,Observation,2023-05-08,2023-05-09,871,17,Yes,Lahore,8
+P1128,Patient_128,35,Male,CityCare Hospital,Dr. Sara,Hypertension,Observation,2023-05-09,2023-05-10,5625,95,No,Islamabad,3
+P1129,Patient_129,65,Female,MediLife Clinic,Dr. Sana,Fracture,Physical Therapy,2023-05-10,2023-05-11,14511,85,Yes,Islamabad,6
+P1130,Patient_130,47,Female,Green Valley Hospital,Dr. Rizwan,Arthritis,Therapy,2023-05-11,2023-05-12,8870,37,No,Islamabad,5
+P1131,Patient_131,78,Male,Wellness Point,Dr. Ali,Hypertension,Physical Therapy,2023-05-12,2023-05-13,11193,80,No,Lahore,6
+P1132,Patient_132,3,Male,MediLife Clinic,Dr. Khan,Allergy,Therapy,2023-05-13,2023-05-14,13903,86,No,Karachi,1
+P1133,Patient_133,1,Male,Central Hospital,Dr. Ali,Arthritis,Surgery,2023-05-14,2023-05-15,293,87,No,Karachi,7
+P1134,Patient_134,5,Male,MediLife Clinic,Dr. Fatima,Diabetes,Chemotherapy,2023-05-15,2023-05-16,2107,49,No,Peshawar,9
+P1135,Patient_135,14,Female,Green Valley Hospital,Dr. Adeel,Migraine,Observation,2023-05-16,2023-05-17,1285,7,No,Peshawar,2
+P1136,Patient_136,27,Male,MediLife Clinic,Dr. Khan,Hypertension,Observation,2023-05-17,2023-05-18,2494,40,Yes,Lahore,5
+P1137,Patient_137,9,Male,Green Valley Hospital,Dr. Rizwan,COVID-19,Surgery,2023-05-18,2023-05-19,11290,5,Yes,Quetta,4
+P1138,Patient_138,79,Female,CityCare Hospital,Dr. Rizwan,Arthritis,Medication,2023-05-19,2023-05-20,13772,68,Yes,Karachi,6
+P1139,Patient_139,15,Male,Green Valley Hospital,Dr. Fatima,Allergy,Chemotherapy,2023-05-20,2023-05-21,10084,43,No,Peshawar,6
+P1140,Patient_140,42,Male,Green Valley Hospital,Dr. Fatima,Diabetes,Physical Therapy,2023-05-21,2023-05-22,9402,63,Yes,Karachi,2
+P1141,Patient_141,77,Male,Hope Health Center,Dr. Zain,Fracture,Surgery,2023-05-22,2023-05-23,4105,28,No,Lahore,2
+P1142,Patient_142,51,Male,Green Valley Hospital,Dr. Khan,COVID-19,Physical Therapy,2023-05-23,2023-05-24,7529,27,No,Lahore,4
+P1143,Patient_143,63,Male,Green Valley Hospital,Dr. Ali,Arthritis,Vaccination,2023-05-24,2023-05-25,2361,10,No,Quetta,1
+P1144,Patient_144,52,Female,Wellness Point,Dr. Sara,Migraine,Observation,2023-05-25,2023-05-26,3836,64,Yes,Quetta,9
+P1145,Patient_145,4,Male,CityCare Hospital,Dr. Rizwan,COVID-19,Physical Therapy,2023-05-26,2023-05-27,12085,18,No,Lahore,7
+P1146,Patient_146,23,Male,Central Hospital,Dr. Rizwan,Diabetes,Therapy,2023-05-27,2023-05-28,10228,8,No,Peshawar,7
+P1147,Patient_147,15,Male,Hope Health Center,Dr. Fatima,COVID-19,Physical Therapy,2023-05-28,2023-05-29,6816,26,Yes,Karachi,3
+P1148,Patient_148,43,Male,Wellness Point,Dr. Sana,Asthma,Vaccination,2023-05-29,2023-05-30,4975,33,Yes,Islamabad,3
+P1149,Patient_149,29,Male,Sunrise Medical,Dr. Fatima,Heart Disease,Chemotherapy,2023-05-30,2023-05-31,12649,43,No,Quetta,1
+P1150,Patient_150,36,Female,CityCare Hospital,Dr. Sara,Fracture,Observation,2023-05-31,2023-06-01,9021,67,No,Islamabad,3
+P1151,Patient_151,13,Male,CityCare Hospital,Dr. Ali,Diabetes,Surgery,2023-06-01,2023-06-02,4478,99,Yes,Peshawar,3
+P1152,Patient_152,32,Female,Sunrise Medical,Dr. Ali,COVID-19,Vaccination,2023-06-02,2023-06-03,7915,81,Yes,Quetta,4
+P1153,Patient_153,71,Female,Central Hospital,Dr. Sana,Heart Disease,Observation,2023-06-03,2023-06-04,13878,14,Yes,Islamabad,4
+P1154,Patient_154,59,Male,Green Valley Hospital,Dr. Rizwan,Heart Disease,Physical Therapy,2023-06-04,2023-06-05,3551,50,No,Peshawar,3
+P1155,Patient_155,86,Male,Wellness Point,Dr. Fatima,COVID-19,Chemotherapy,2023-06-05,2023-06-06,12749,12,Yes,Karachi,8
+P1156,Patient_156,28,Male,MediLife Clinic,Dr. Zain,Migraine,Medication,2023-06-06,2023-06-07,7716,82,Yes,Peshawar,8
+P1157,Patient_157,66,Male,Hope Health Center,Dr. Ali,Asthma,Chemotherapy,2023-06-07,2023-06-08,12828,48,Yes,Quetta,1
+P1158,Patient_158,42,Female,MediLife Clinic,Dr. Sara,Hypertension,Medication,2023-06-08,2023-06-09,10432,69,No,Lahore,7
+P1159,Patient_159,45,Male,Sunrise Medical,Dr. Khan,Asthma,Therapy,2023-06-09,2023-06-10,9936,55,Yes,Karachi,2
+P1160,Patient_160,62,Male,CityCare Hospital,Dr. Adeel,COVID-19,Chemotherapy,2023-06-10,2023-06-11,2900,75,Yes,Islamabad,1
+P1161,Patient_161,57,Male,Central Hospital,Dr. Adeel,Fracture,Observation,2023-06-11,2023-06-12,13254,50,Yes,Quetta,3
+P1162,Patient_162,6,Male,CityCare Hospital,Dr. Adeel,Hypertension,Medication,2023-06-12,2023-06-13,13835,36,Yes,Lahore,4
+P1163,Patient_163,28,Male,Hope Health Center,Dr. Zain,Diabetes,Surgery,2023-06-13,2023-06-14,8433,16,Yes,Peshawar,6
+P1164,Patient_164,28,Male,CityCare Hospital,Dr. Rizwan,Asthma,Observation,2023-06-14,2023-06-15,5510,57,No,Lahore,5
+P1165,Patient_165,44,Female,CityCare Hospital,Dr. Fatima,COVID-19,Surgery,2023-06-15,2023-06-16,1555,86,No,Quetta,4
+P1166,Patient_166,84,Female,Hope Health Center,Dr. Sana,Asthma,Chemotherapy,2023-06-16,2023-06-17,6992,89,No,Quetta,8
+P1167,Patient_167,30,Male,Wellness Point,Dr. Zain,Hypertension,Surgery,2023-06-17,2023-06-18,14263,28,Yes,Lahore,4
+P1168,Patient_168,62,Male,Wellness Point,Dr. Zain,Allergy,Medication,2023-06-18,2023-06-19,14235,32,No,Peshawar,2
+P1169,Patient_169,75,Male,Hope Health Center,Dr. Ali,Arthritis,Observation,2023-06-19,2023-06-20,5908,59,No,Lahore,3
+P1170,Patient_170,89,Female,Central Hospital,Dr. Khan,Asthma,Physical Therapy,2023-06-20,2023-06-21,6896,90,No,Quetta,6
+P1171,Patient_171,62,Male,Sunrise Medical,Dr. Zain,Diabetes,Vaccination,2023-06-21,2023-06-22,4896,88,Yes,Quetta,8
+P1172,Patient_172,1,Female,CityCare Hospital,Dr. Sara,Diabetes,Medication,2023-06-22,2023-06-23,5193,54,Yes,Islamabad,8
+P1173,Patient_173,27,Male,Central Hospital,Dr. Khan,Flu,Medication,2023-06-23,2023-06-24,10388,9,No,Islamabad,9
+P1174,Patient_174,62,Male,CityCare Hospital,Dr. Sara,Asthma,Physical Therapy,2023-06-24,2023-06-25,1425,46,No,Karachi,7
+P1175,Patient_175,77,Male,Sunrise Medical,Dr. Rizwan,Arthritis,Observation,2023-06-25,2023-06-26,5076,22,Yes,Quetta,2
+P1176,Patient_176,3,Male,Wellness Point,Dr. Fatima,Migraine,Observation,2023-06-26,2023-06-27,9505,84,Yes,Islamabad,8
+P1177,Patient_177,70,Female,Central Hospital,Dr. Adeel,Heart Disease,Chemotherapy,2023-06-27,2023-06-28,1259,20,No,Lahore,7
+P1178,Patient_178,72,Female,Green Valley Hospital,Dr. Zain,Arthritis,Surgery,2023-06-28,2023-06-29,4750,12,Yes,Peshawar,8
+P1179,Patient_179,27,Male,Green Valley Hospital,Dr. Fatima,Heart Disease,Chemotherapy,2023-06-29,2023-06-30,12791,32,No,Lahore,3
+P1180,Patient_180,9,Male,Green Valley Hospital,Dr. Rizwan,Heart Disease,Physical Therapy,2023-06-30,2023-07-01,5087,23,Yes,Peshawar,7
+P1181,Patient_181,62,Female,Wellness Point,Dr. Sana,Allergy,Chemotherapy,2023-07-01,2023-07-02,4797,10,No,Islamabad,9
+P1182,Patient_182,37,Female,Wellness Point,Dr. Sana,Flu,Physical Therapy,2023-07-02,2023-07-03,14218,16,No,Karachi,3
+P1183,Patient_183,51,Female,Sunrise Medical,Dr. Rizwan,Arthritis,Observation,2023-07-03,2023-07-04,440,67,Yes,Lahore,6
+P1184,Patient_184,44,Female,CityCare Hospital,Dr. Sara,Arthritis,Surgery,2023-07-04,2023-07-05,3928,46,No,Lahore,2
+P1185,Patient_185,24,Male,Sunrise Medical,Dr. Ali,Allergy,Chemotherapy,2023-07-05,2023-07-06,2068,24,No,Lahore,2
+P1186,Patient_186,79,Female,Sunrise Medical,Dr. Ali,Asthma,Medication,2023-07-06,2023-07-07,803,93,No,Peshawar,5
+P1187,Patient_187,59,Male,Wellness Point,Dr. Sara,Asthma,Therapy,2023-07-07,2023-07-08,12705,72,Yes,Islamabad,5
+P1188,Patient_188,32,Female,Green Valley Hospital,Dr. Sana,Asthma,Vaccination,2023-07-08,2023-07-09,5582,20,Yes,Lahore,7
+P1189,Patient_189,88,Female,MediLife Clinic,Dr. Sana,Fracture,Medication,2023-07-09,2023-07-10,10721,83,Yes,Lahore,2
+P1190,Patient_190,52,Female,CityCare Hospital,Dr. Zain,Heart Disease,Observation,2023-07-10,2023-07-11,6476,82,No,Karachi,7
+P1191,Patient_191,62,Female,Wellness Point,Dr. Sana,Fracture,Vaccination,2023-07-11,2023-07-12,1900,82,Yes,Karachi,5
+P1192,Patient_192,58,Female,Green Valley Hospital,Dr. Fatima,Flu,Therapy,2023-07-12,2023-07-13,5563,11,No,Islamabad,6
+P1193,Patient_193,52,Male,Central Hospital,Dr. Sana,Allergy,Therapy,2023-07-13,2023-07-14,13960,36,No,Islamabad,8
+P1194,Patient_194,12,Male,MediLife Clinic,Dr. Khan,Arthritis,Surgery,2023-07-14,2023-07-15,5012,41,Yes,Quetta,4
+P1195,Patient_195,39,Female,MediLife Clinic,Dr. Zain,Heart Disease,Vaccination,2023-07-15,2023-07-16,4748,16,Yes,Karachi,7
+P1196,Patient_196,2,Female,Wellness Point,Dr. Adeel,Fracture,Surgery,2023-07-16,2023-07-17,955,47,No,Quetta,6
+P1197,Patient_197,3,Male,Hope Health Center,Dr. Sana,Fracture,Medication,2023-07-17,2023-07-18,10104,27,No,Peshawar,2
+P1198,Patient_198,56,Female,CityCare Hospital,Dr. Sara,COVID-19,Physical Therapy,2023-07-18,2023-07-19,2966,40,Yes,Quetta,8
+P1199,Patient_199,81,Female,MediLife Clinic,Dr. Adeel,Fracture,Physical Therapy,2023-07-19,2023-07-20,11934,98,Yes,Lahore,9
+P1200,Patient_200,59,Male,Wellness Point,Dr. Fatima,Migraine,Physical Therapy,2023-07-20,2023-07-21,282,46,Yes,Quetta,5
+P1201,Patient_201,2,Female,Wellness Point,Dr. Sara,Arthritis,Vaccination,2023-07-21,2023-07-22,3212,17,No,Islamabad,4
+P1202,Patient_202,2,Female,Green Valley Hospital,Dr. Adeel,Migraine,Physical Therapy,2023-07-22,2023-07-23,5770,77,No,Peshawar,6
+P1203,Patient_203,54,Male,Central Hospital,Dr. Sara,Arthritis,Medication,2023-07-23,2023-07-24,4592,98,No,Lahore,8
+P1204,Patient_204,87,Male,Hope Health Center,Dr. Fatima,Allergy,Surgery,2023-07-24,2023-07-25,5923,70,No,Quetta,3
+P1205,Patient_205,1,Male,CityCare Hospital,Dr. Zain,Arthritis,Vaccination,2023-07-25,2023-07-26,1617,12,No,Peshawar,1
+P1206,Patient_206,19,Female,Sunrise Medical,Dr. Khan,Migraine,Surgery,2023-07-26,2023-07-27,5102,81,Yes,Peshawar,4
+P1207,Patient_207,2,Male,Central Hospital,Dr. Fatima,Arthritis,Vaccination,2023-07-27,2023-07-28,1456,12,Yes,Lahore,4
+P1208,Patient_208,53,Male,Central Hospital,Dr. Fatima,Allergy,Surgery,2023-07-28,2023-07-29,10466,99,No,Quetta,1
+P1209,Patient_209,44,Male,Green Valley Hospital,Dr. Sara,Allergy,Therapy,2023-07-29,2023-07-30,3729,30,No,Peshawar,9
+P1210,Patient_210,32,Male,MediLife Clinic,Dr. Zain,Flu,Surgery,2023-07-30,2023-07-31,3728,1,Yes,Peshawar,3
+P1211,Patient_211,70,Male,MediLife Clinic,Dr. Rizwan,Arthritis,Physical Therapy,2023-07-31,2023-08-01,12388,15,Yes,Karachi,5
+P1212,Patient_212,32,Male,Green Valley Hospital,Dr. Ali,COVID-19,Therapy,2023-08-01,2023-08-02,11531,8,Yes,Peshawar,6
+P1213,Patient_213,68,Female,Wellness Point,Dr. Sana,Asthma,Surgery,2023-08-02,2023-08-03,11983,72,Yes,Karachi,8
+P1214,Patient_214,55,Female,MediLife Clinic,Dr. Sana,Diabetes,Vaccination,2023-08-03,2023-08-04,8310,37,No,Quetta,6
+P1215,Patient_215,75,Male,Hope Health Center,Dr. Khan,Allergy,Vaccination,2023-08-04,2023-08-05,11695,74,Yes,Quetta,3
+P1216,Patient_216,56,Male,CityCare Hospital,Dr. Khan,Hypertension,Vaccination,2023-08-05,2023-08-06,12971,53,No,Quetta,6
+P1217,Patient_217,17,Male,Central Hospital,Dr. Sana,Asthma,Observation,2023-08-06,2023-08-07,12843,55,Yes,Islamabad,1
+P1218,Patient_218,38,Female,Central Hospital,Dr. Ali,Heart Disease,Medication,2023-08-07,2023-08-08,11296,85,Yes,Quetta,4
+P1219,Patient_219,24,Female,Hope Health Center,Dr. Sana,Arthritis,Vaccination,2023-08-08,2023-08-09,6232,96,Yes,Peshawar,6
+P1220,Patient_220,69,Female,MediLife Clinic,Dr. Rizwan,Migraine,Therapy,2023-08-09,2023-08-10,9424,99,No,Lahore,7
+P1221,Patient_221,70,Female,Central Hospital,Dr. Ali,Diabetes,Vaccination,2023-08-10,2023-08-11,11631,86,No,Karachi,3
+P1222,Patient_222,86,Female,Sunrise Medical,Dr. Khan,Hypertension,Observation,2023-08-11,2023-08-12,6688,44,Yes,Islamabad,9
+P1223,Patient_223,11,Female,CityCare Hospital,Dr. Adeel,Asthma,Physical Therapy,2023-08-12,2023-08-13,3411,33,No,Quetta,7
+P1224,Patient_224,16,Female,CityCare Hospital,Dr. Sara,Arthritis,Therapy,2023-08-13,2023-08-14,6148,8,No,Quetta,1
+P1225,Patient_225,73,Female,Central Hospital,Dr. Rizwan,Flu,Observation,2023-08-14,2023-08-15,11664,87,Yes,Lahore,2
+P1226,Patient_226,59,Female,Green Valley Hospital,Dr. Rizwan,Heart Disease,Physical Therapy,2023-08-15,2023-08-16,6346,7,Yes,Lahore,1
+P1227,Patient_227,70,Male,Central Hospital,Dr. Zain,Diabetes,Chemotherapy,2023-08-16,2023-08-17,1087,6,No,Islamabad,9
+P1228,Patient_228,80,Male,Green Valley Hospital,Dr. Khan,COVID-19,Chemotherapy,2023-08-17,2023-08-18,3421,35,No,Karachi,9
+P1229,Patient_229,3,Male,Central Hospital,Dr. Khan,Flu,Therapy,2023-08-18,2023-08-19,4715,17,No,Quetta,7
+P1230,Patient_230,20,Male,Sunrise Medical,Dr. Fatima,Hypertension,Surgery,2023-08-19,2023-08-20,13246,2,Yes,Islamabad,3
+P1231,Patient_231,59,Female,Wellness Point,Dr. Rizwan,Diabetes,Medication,2023-08-20,2023-08-21,8465,27,Yes,Peshawar,5
+P1232,Patient_232,36,Female,CityCare Hospital,Dr. Fatima,Flu,Medication,2023-08-21,2023-08-22,13754,69,No,Peshawar,4
+P1233,Patient_233,19,Male,Central Hospital,Dr. Fatima,Heart Disease,Observation,2023-08-22,2023-08-23,3841,43,Yes,Islamabad,7
+P1234,Patient_234,67,Female,Sunrise Medical,Dr. Sara,COVID-19,Physical Therapy,2023-08-23,2023-08-24,3152,20,Yes,Quetta,9
+P1235,Patient_235,19,Male,Green Valley Hospital,Dr. Fatima,Flu,Medication,2023-08-24,2023-08-25,6674,27,No,Islamabad,2
+P1236,Patient_236,20,Female,Green Valley Hospital,Dr. Ali,Fracture,Physical Therapy,2023-08-25,2023-08-26,826,53,No,Quetta,8
+P1237,Patient_237,71,Male,CityCare Hospital,Dr. Sana,COVID-19,Physical Therapy,2023-08-26,2023-08-27,3860,53,Yes,Lahore,9
+P1238,Patient_238,52,Female,Hope Health Center,Dr. Adeel,Hypertension,Observation,2023-08-27,2023-08-28,5906,64,Yes,Islamabad,9
+P1239,Patient_239,33,Female,Central Hospital,Dr. Khan,Heart Disease,Observation,2023-08-28,2023-08-29,1975,99,No,Quetta,7
+P1240,Patient_240,40,Male,MediLife Clinic,Dr. Ali,Arthritis,Observation,2023-08-29,2023-08-30,7093,20,Yes,Islamabad,9
+P1241,Patient_241,39,Female,Green Valley Hospital,Dr. Adeel,Migraine,Medication,2023-08-30,2023-08-31,14069,98,Yes,Islamabad,9
+P1242,Patient_242,82,Male,Wellness Point,Dr. Rizwan,Migraine,Chemotherapy,2023-08-31,2023-09-01,4133,12,No,Quetta,3
+P1243,Patient_243,1,Male,Wellness Point,Dr. Rizwan,Migraine,Observation,2023-09-01,2023-09-02,5543,56,No,Quetta,4
+P1244,Patient_244,11,Male,Green Valley Hospital,Dr. Rizwan,Diabetes,Medication,2023-09-02,2023-09-03,1089,48,Yes,Karachi,2
+P1245,Patient_245,57,Male,Hope Health Center,Dr. Ali,Hypertension,Observation,2023-09-03,2023-09-04,3844,53,Yes,Islamabad,3
+P1246,Patient_246,89,Female,Hope Health Center,Dr. Ali,Heart Disease,Vaccination,2023-09-04,2023-09-05,10978,9,Yes,Peshawar,5
+P1247,Patient_247,50,Female,Sunrise Medical,Dr. Khan,COVID-19,Physical Therapy,2023-09-05,2023-09-06,8711,52,No,Islamabad,5
+P1248,Patient_248,23,Female,Wellness Point,Dr. Sana,Diabetes,Observation,2023-09-06,2023-09-07,693,43,Yes,Islamabad,6
+P1249,Patient_249,31,Male,Sunrise Medical,Dr. Zain,Hypertension,Therapy,2023-09-07,2023-09-08,14920,46,Yes,Quetta,7
+P1250,Patient_250,42,Female,Wellness Point,Dr. Fatima,Arthritis,Physical Therapy,2023-09-08,2023-09-09,1874,52,No,Islamabad,7
+P1251,Patient_251,7,Male,Central Hospital,Dr. Rizwan,Fracture,Physical Therapy,2023-09-09,2023-09-10,10751,73,No,Islamabad,1
+P1252,Patient_252,16,Female,Central Hospital,Dr. Sara,Heart Disease,Observation,2023-09-10,2023-09-11,1035,45,Yes,Peshawar,2
+P1253,Patient_253,60,Female,MediLife Clinic,Dr. Sana,Migraine,Chemotherapy,2023-09-11,2023-09-12,13495,12,No,Quetta,9
+P1254,Patient_254,2,Female,Central Hospital,Dr. Sara,Flu,Surgery,2023-09-12,2023-09-13,13524,36,No,Islamabad,2
+P1255,Patient_255,1,Male,MediLife Clinic,Dr. Khan,Heart Disease,Chemotherapy,2023-09-13,2023-09-14,3908,23,Yes,Lahore,6
+P1256,Patient_256,48,Female,Central Hospital,Dr. Khan,Allergy,Observation,2023-09-14,2023-09-15,431,1,No,Karachi,1
+P1257,Patient_257,12,Female,CityCare Hospital,Dr. Khan,Hypertension,Physical Therapy,2023-09-15,2023-09-16,11741,85,No,Peshawar,3
+P1258,Patient_258,69,Male,Central Hospital,Dr. Adeel,Asthma,Therapy,2023-09-16,2023-09-17,8022,80,Yes,Islamabad,2
+P1259,Patient_259,37,Female,Sunrise Medical,Dr. Sara,Arthritis,Physical Therapy,2023-09-17,2023-09-18,2802,99,No,Lahore,3
+P1260,Patient_260,32,Male,Green Valley Hospital,Dr. Sana,Fracture,Chemotherapy,2023-09-18,2023-09-19,14476,13,Yes,Islamabad,5
+P1261,Patient_261,9,Female,Sunrise Medical,Dr. Zain,Arthritis,Therapy,2023-09-19,2023-09-20,12298,9,Yes,Islamabad,6
+P1262,Patient_262,19,Male,Green Valley Hospital,Dr. Sana,Heart Disease,Medication,2023-09-20,2023-09-21,5989,34,No,Quetta,9
+P1263,Patient_263,48,Male,Hope Health Center,Dr. Ali,Asthma,Vaccination,2023-09-21,2023-09-22,5154,24,No,Quetta,4
+P1264,Patient_264,80,Female,Sunrise Medical,Dr. Ali,Allergy,Physical Therapy,2023-09-22,2023-09-23,3968,2,No,Quetta,7
+P1265,Patient_265,3,Male,Hope Health Center,Dr. Rizwan,COVID-19,Observation,2023-09-23,2023-09-24,4300,16,Yes,Lahore,6
+P1266,Patient_266,20,Male,MediLife Clinic,Dr. Zain,Flu,Medication,2023-09-24,2023-09-25,301,11,No,Islamabad,2
+P1267,Patient_267,24,Male,MediLife Clinic,Dr. Ali,Asthma,Vaccination,2023-09-25,2023-09-26,2597,53,Yes,Karachi,8
+P1268,Patient_268,54,Male,CityCare Hospital,Dr. Khan,Hypertension,Observation,2023-09-26,2023-09-27,1942,23,No,Peshawar,7
+P1269,Patient_269,33,Male,Central Hospital,Dr. Sana,Migraine,Surgery,2023-09-27,2023-09-28,10158,28,No,Quetta,7
+P1270,Patient_270,24,Male,Sunrise Medical,Dr. Sara,Allergy,Observation,2023-09-28,2023-09-29,10288,42,No,Quetta,8
+P1271,Patient_271,75,Female,Hope Health Center,Dr. Khan,Flu,Therapy,2023-09-29,2023-09-30,13677,24,Yes,Islamabad,1
+P1272,Patient_272,72,Male,Green Valley Hospital,Dr. Adeel,Fracture,Therapy,2023-09-30,2023-10-01,9201,99,No,Islamabad,1
+P1273,Patient_273,36,Male,MediLife Clinic,Dr. Ali,Migraine,Surgery,2023-10-01,2023-10-02,12597,59,No,Lahore,8
+P1274,Patient_274,38,Female,Central Hospital,Dr. Khan,Heart Disease,Medication,2023-10-02,2023-10-03,4758,89,Yes,Lahore,4
+P1275,Patient_275,84,Female,MediLife Clinic,Dr. Khan,Asthma,Vaccination,2023-10-03,2023-10-04,11481,64,Yes,Quetta,5
+P1276,Patient_276,89,Female,Green Valley Hospital,Dr. Adeel,Flu,Observation,2023-10-04,2023-10-05,7644,83,No,Islamabad,8
+P1277,Patient_277,25,Female,Central Hospital,Dr. Fatima,Diabetes,Therapy,2023-10-05,2023-10-06,7818,27,No,Karachi,5
+P1278,Patient_278,18,Female,Central Hospital,Dr. Sana,COVID-19,Medication,2023-10-06,2023-10-07,13951,15,No,Peshawar,4
+P1279,Patient_279,82,Female,Hope Health Center,Dr. Sara,COVID-19,Surgery,2023-10-07,2023-10-08,870,46,Yes,Islamabad,6
+P1280,Patient_280,66,Female,Hope Health Center,Dr. Rizwan,Allergy,Chemotherapy,2023-10-08,2023-10-09,3255,80,Yes,Islamabad,5
+P1281,Patient_281,54,Male,Sunrise Medical,Dr. Fatima,Fracture,Physical Therapy,2023-10-09,2023-10-10,10793,91,Yes,Lahore,7
+P1282,Patient_282,35,Male,Sunrise Medical,Dr. Ali,Allergy,Chemotherapy,2023-10-10,2023-10-11,11006,57,Yes,Peshawar,7
+P1283,Patient_283,80,Female,Wellness Point,Dr. Khan,Diabetes,Chemotherapy,2023-10-11,2023-10-12,13016,75,No,Quetta,4
+P1284,Patient_284,61,Male,Wellness Point,Dr. Zain,Hypertension,Therapy,2023-10-12,2023-10-13,11877,26,Yes,Islamabad,5
+P1285,Patient_285,41,Male,CityCare Hospital,Dr. Adeel,Fracture,Surgery,2023-10-13,2023-10-14,1728,52,Yes,Quetta,3
+P1286,Patient_286,33,Male,MediLife Clinic,Dr. Adeel,Arthritis,Observation,2023-10-14,2023-10-15,14089,41,Yes,Islamabad,4
+P1287,Patient_287,68,Female,Sunrise Medical,Dr. Zain,Hypertension,Chemotherapy,2023-10-15,2023-10-16,486,58,No,Quetta,4
+P1288,Patient_288,33,Female,Hope Health Center,Dr. Sana,Fracture,Chemotherapy,2023-10-16,2023-10-17,6131,46,No,Peshawar,3
+P1289,Patient_289,14,Male,Green Valley Hospital,Dr. Fatima,Fracture,Vaccination,2023-10-17,2023-10-18,11713,93,Yes,Lahore,5
+P1290,Patient_290,21,Female,Hope Health Center,Dr. Rizwan,Diabetes,Therapy,2023-10-18,2023-10-19,6539,33,Yes,Peshawar,5
+P1291,Patient_291,48,Male,MediLife Clinic,Dr. Sana,Heart Disease,Therapy,2023-10-19,2023-10-20,6501,36,No,Karachi,7
+P1292,Patient_292,20,Male,Wellness Point,Dr. Zain,Diabetes,Observation,2023-10-20,2023-10-21,13492,5,No,Lahore,4
+P1293,Patient_293,8,Male,Hope Health Center,Dr. Khan,Fracture,Physical Therapy,2023-10-21,2023-10-22,4108,6,No,Peshawar,4
+P1294,Patient_294,7,Male,CityCare Hospital,Dr. Zain,Flu,Medication,2023-10-22,2023-10-23,12385,95,No,Karachi,9
+P1295,Patient_295,67,Female,MediLife Clinic,Dr. Sana,Hypertension,Vaccination,2023-10-23,2023-10-24,12655,95,No,Islamabad,6
+P1296,Patient_296,17,Female,Wellness Point,Dr. Sara,Diabetes,Therapy,2023-10-24,2023-10-25,2566,24,No,Islamabad,4
+P1297,Patient_297,33,Female,Green Valley Hospital,Dr. Adeel,Heart Disease,Vaccination,2023-10-25,2023-10-26,2382,32,No,Quetta,2
+P1298,Patient_298,48,Male,Wellness Point,Dr. Adeel,Asthma,Therapy,2023-10-26,2023-10-27,1956,54,No,Lahore,6
+P1299,Patient_299,76,Female,Central Hospital,Dr. Ali,Allergy,Vaccination,2023-10-27,2023-10-28,8080,57,Yes,Islamabad,2
+P1300,Patient_300,59,Male,CityCare Hospital,Dr. Ali,Fracture,Surgery,2023-10-28,2023-10-29,2098,6,Yes,Lahore,5
+P1301,Patient_301,86,Female,MediLife Clinic,Dr. Zain,Arthritis,Chemotherapy,2023-10-29,2023-10-30,5576,56,Yes,Islamabad,6
+P1302,Patient_302,22,Male,Green Valley Hospital,Dr. Rizwan,Asthma,Therapy,2023-10-30,2023-10-31,9528,11,Yes,Quetta,4
+P1303,Patient_303,30,Male,CityCare Hospital,Dr. Khan,COVID-19,Vaccination,2023-10-31,2023-11-01,4769,15,Yes,Peshawar,3
+P1304,Patient_304,38,Male,Wellness Point,Dr. Sara,Migraine,Medication,2023-11-01,2023-11-02,12436,79,Yes,Quetta,7
+P1305,Patient_305,51,Female,CityCare Hospital,Dr. Fatima,Heart Disease,Surgery,2023-11-02,2023-11-03,9442,42,No,Karachi,2
+P1306,Patient_306,54,Female,MediLife Clinic,Dr. Sana,Arthritis,Surgery,2023-11-03,2023-11-04,4418,99,No,Islamabad,6
+P1307,Patient_307,8,Female,Sunrise Medical,Dr. Rizwan,Migraine,Medication,2023-11-04,2023-11-05,7164,76,Yes,Karachi,4
+P1308,Patient_308,27,Female,CityCare Hospital,Dr. Khan,Heart Disease,Vaccination,2023-11-05,2023-11-06,7546,6,Yes,Karachi,6
+P1309,Patient_309,27,Male,Central Hospital,Dr. Ali,Flu,Observation,2023-11-06,2023-11-07,1531,99,No,Lahore,4
+P1310,Patient_310,21,Female,CityCare Hospital,Dr. Zain,Allergy,Medication,2023-11-07,2023-11-08,5724,50,No,Islamabad,4
+P1311,Patient_311,30,Female,Wellness Point,Dr. Sana,Asthma,Vaccination,2023-11-08,2023-11-09,7561,72,No,Karachi,4
+P1312,Patient_312,28,Male,Wellness Point,Dr. Ali,Hypertension,Medication,2023-11-09,2023-11-10,1919,31,Yes,Peshawar,9
+P1313,Patient_313,64,Male,Green Valley Hospital,Dr. Zain,Heart Disease,Medication,2023-11-10,2023-11-11,10616,74,No,Karachi,7
+P1314,Patient_314,69,Male,Wellness Point,Dr. Sana,Hypertension,Therapy,2023-11-11,2023-11-12,13849,7,Yes,Peshawar,3
+P1315,Patient_315,61,Female,Hope Health Center,Dr. Fatima,Allergy,Vaccination,2023-11-12,2023-11-13,1230,96,Yes,Lahore,3
+P1316,Patient_316,48,Male,MediLife Clinic,Dr. Khan,Fracture,Observation,2023-11-13,2023-11-14,14069,86,No,Karachi,6
+P1317,Patient_317,19,Male,MediLife Clinic,Dr. Sana,COVID-19,Chemotherapy,2023-11-14,2023-11-15,6663,88,No,Quetta,6
+P1318,Patient_318,4,Male,Sunrise Medical,Dr. Sara,Asthma,Therapy,2023-11-15,2023-11-16,2758,71,Yes,Lahore,4
+P1319,Patient_319,35,Female,Sunrise Medical,Dr. Rizwan,Allergy,Medication,2023-11-16,2023-11-17,3600,44,No,Peshawar,9
+P1320,Patient_320,64,Male,MediLife Clinic,Dr. Adeel,Allergy,Chemotherapy,2023-11-17,2023-11-18,8666,85,No,Lahore,4
+P1321,Patient_321,49,Female,Central Hospital,Dr. Sara,Flu,Physical Therapy,2023-11-18,2023-11-19,2220,58,Yes,Karachi,9
+P1322,Patient_322,17,Female,Sunrise Medical,Dr. Sara,Migraine,Chemotherapy,2023-11-19,2023-11-20,4120,3,No,Islamabad,4
+P1323,Patient_323,44,Male,Green Valley Hospital,Dr. Rizwan,COVID-19,Medication,2023-11-20,2023-11-21,10313,66,Yes,Islamabad,2
+P1324,Patient_324,30,Male,Wellness Point,Dr. Adeel,Asthma,Medication,2023-11-21,2023-11-22,11997,28,Yes,Peshawar,2
+P1325,Patient_325,46,Female,MediLife Clinic,Dr. Sara,Fracture,Vaccination,2023-11-22,2023-11-23,13441,28,No,Peshawar,5
+P1326,Patient_326,6,Male,Sunrise Medical,Dr. Sana,Fracture,Vaccination,2023-11-23,2023-11-24,3359,97,Yes,Islamabad,4
+P1327,Patient_327,37,Male,MediLife Clinic,Dr. Sana,Diabetes,Therapy,2023-11-24,2023-11-25,11727,97,Yes,Peshawar,7
+P1328,Patient_328,24,Female,Hope Health Center,Dr. Sana,Allergy,Observation,2023-11-25,2023-11-26,10181,27,No,Lahore,5
+P1329,Patient_329,46,Female,CityCare Hospital,Dr. Adeel,Heart Disease,Therapy,2023-11-26,2023-11-27,1923,76,No,Quetta,6
+P1330,Patient_330,53,Male,Wellness Point,Dr. Sara,Flu,Surgery,2023-11-27,2023-11-28,1574,78,No,Quetta,4
+P1331,Patient_331,60,Female,MediLife Clinic,Dr. Zain,COVID-19,Medication,2023-11-28,2023-11-29,2342,86,Yes,Lahore,2
+P1332,Patient_332,63,Male,CityCare Hospital,Dr. Adeel,Fracture,Chemotherapy,2023-11-29,2023-11-30,13567,43,Yes,Quetta,9
+P1333,Patient_333,85,Male,Sunrise Medical,Dr. Sana,Asthma,Physical Therapy,2023-11-30,2023-12-01,3343,89,No,Karachi,7
+P1334,Patient_334,32,Male,CityCare Hospital,Dr. Rizwan,Diabetes,Medication,2023-12-01,2023-12-02,7090,3,Yes,Lahore,4
+P1335,Patient_335,87,Female,Wellness Point,Dr. Sara,Asthma,Medication,2023-12-02,2023-12-03,5260,89,No,Peshawar,3
+P1336,Patient_336,33,Male,MediLife Clinic,Dr. Sara,Flu,Therapy,2023-12-03,2023-12-04,3234,8,No,Lahore,3
+P1337,Patient_337,67,Male,Hope Health Center,Dr. Ali,Heart Disease,Physical Therapy,2023-12-04,2023-12-05,2170,4,Yes,Islamabad,9
+P1338,Patient_338,18,Male,Central Hospital,Dr. Ali,Diabetes,Physical Therapy,2023-12-05,2023-12-06,459,55,No,Peshawar,5
+P1339,Patient_339,25,Female,Sunrise Medical,Dr. Fatima,Diabetes,Physical Therapy,2023-12-06,2023-12-07,14995,95,Yes,Islamabad,3
+P1340,Patient_340,54,Female,MediLife Clinic,Dr. Zain,Migraine,Therapy,2023-12-07,2023-12-08,10333,83,Yes,Peshawar,5
+P1341,Patient_341,58,Female,Wellness Point,Dr. Zain,COVID-19,Medication,2023-12-08,2023-12-09,1241,49,No,Quetta,2
+P1342,Patient_342,67,Female,Sunrise Medical,Dr. Khan,Diabetes,Therapy,2023-12-09,2023-12-10,1735,74,Yes,Lahore,4
+P1343,Patient_343,46,Female,Green Valley Hospital,Dr. Zain,Migraine,Vaccination,2023-12-10,2023-12-11,13791,14,No,Karachi,2
+P1344,Patient_344,24,Male,CityCare Hospital,Dr. Ali,Migraine,Vaccination,2023-12-11,2023-12-12,4100,31,Yes,Peshawar,2
+P1345,Patient_345,32,Female,Central Hospital,Dr. Adeel,Flu,Therapy,2023-12-12,2023-12-13,10235,27,Yes,Peshawar,8
+P1346,Patient_346,47,Female,Wellness Point,Dr. Zain,Hypertension,Physical Therapy,2023-12-13,2023-12-14,13066,21,Yes,Islamabad,1
+P1347,Patient_347,86,Female,Green Valley Hospital,Dr. Ali,Asthma,Medication,2023-12-14,2023-12-15,3461,16,No,Quetta,7
+P1348,Patient_348,23,Male,MediLife Clinic,Dr. Fatima,Heart Disease,Therapy,2023-12-15,2023-12-16,6683,58,Yes,Islamabad,5
+P1349,Patient_349,66,Female,Hope Health Center,Dr. Sara,Arthritis,Therapy,2023-12-16,2023-12-17,7935,89,No,Islamabad,8
+P1350,Patient_350,27,Female,Sunrise Medical,Dr. Zain,Asthma,Therapy,2023-12-17,2023-12-18,11272,70,Yes,Quetta,1
+P1351,Patient_351,2,Male,CityCare Hospital,Dr. Fatima,Diabetes,Surgery,2023-12-18,2023-12-19,106,56,Yes,Karachi,7
+P1352,Patient_352,17,Female,Sunrise Medical,Dr. Sara,Heart Disease,Vaccination,2023-12-19,2023-12-20,3367,25,No,Islamabad,5
+P1353,Patient_353,33,Male,Central Hospital,Dr. Rizwan,Fracture,Chemotherapy,2023-12-20,2023-12-21,6664,24,No,Islamabad,4
+P1354,Patient_354,9,Male,MediLife Clinic,Dr. Rizwan,Hypertension,Physical Therapy,2023-12-21,2023-12-22,9883,9,No,Peshawar,7
+P1355,Patient_355,43,Male,Sunrise Medical,Dr. Sara,Fracture,Observation,2023-12-22,2023-12-23,5028,44,No,Quetta,2
+P1356,Patient_356,48,Male,CityCare Hospital,Dr. Zain,Fracture,Chemotherapy,2023-12-23,2023-12-24,11556,82,No,Lahore,1
+P1357,Patient_357,39,Male,MediLife Clinic,Dr. Khan,COVID-19,Physical Therapy,2023-12-24,2023-12-25,2706,10,Yes,Karachi,1
+P1358,Patient_358,42,Female,Sunrise Medical,Dr. Ali,Asthma,Observation,2023-12-25,2023-12-26,11511,76,Yes,Karachi,1
+P1359,Patient_359,26,Male,Hope Health Center,Dr. Adeel,Arthritis,Surgery,2023-12-26,2023-12-27,6006,52,No,Quetta,5
+P1360,Patient_360,50,Male,Wellness Point,Dr. Adeel,Flu,Therapy,2023-12-27,2023-12-28,3373,71,Yes,Peshawar,7
+P1361,Patient_361,25,Female,MediLife Clinic,Dr. Sana,Arthritis,Surgery,2023-12-28,2023-12-29,7711,67,Yes,Peshawar,2
+P1362,Patient_362,24,Male,Wellness Point,Dr. Sara,Fracture,Surgery,2023-12-29,2023-12-30,1013,94,Yes,Quetta,8
+P1363,Patient_363,13,Female,MediLife Clinic,Dr. Adeel,Diabetes,Chemotherapy,2023-12-30,2023-12-31,2111,27,No,Peshawar,4
+P1364,Patient_364,60,Female,Hope Health Center,Dr. Zain,Hypertension,Medication,2023-12-31,2024-01-01,1542,74,Yes,Karachi,3
+P1365,Patient_365,7,Female,Wellness Point,Dr. Khan,Allergy,Chemotherapy,2024-01-01,2024-01-02,5646,64,Yes,Karachi,8
+P1366,Patient_366,57,Male,Green Valley Hospital,Dr. Sara,Arthritis,Vaccination,2024-01-02,2024-01-03,11346,48,Yes,Lahore,2
+P1367,Patient_367,36,Male,CityCare Hospital,Dr. Khan,Fracture,Observation,2024-01-03,2024-01-04,13890,46,No,Quetta,3
+P1368,Patient_368,45,Male,Green Valley Hospital,Dr. Zain,Hypertension,Therapy,2024-01-04,2024-01-05,11838,51,Yes,Islamabad,3
+P1369,Patient_369,20,Female,Sunrise Medical,Dr. Adeel,Heart Disease,Chemotherapy,2024-01-05,2024-01-06,12513,87,Yes,Islamabad,1
+P1370,Patient_370,65,Male,Hope Health Center,Dr. Adeel,Asthma,Observation,2024-01-06,2024-01-07,14830,53,No,Lahore,6
+P1371,Patient_371,8,Male,Green Valley Hospital,Dr. Sana,Migraine,Physical Therapy,2024-01-07,2024-01-08,13204,59,No,Lahore,2
+P1372,Patient_372,16,Male,MediLife Clinic,Dr. Adeel,COVID-19,Observation,2024-01-08,2024-01-09,11220,56,Yes,Peshawar,1
+P1373,Patient_373,14,Female,Sunrise Medical,Dr. Sara,Hypertension,Physical Therapy,2024-01-09,2024-01-10,1929,46,Yes,Lahore,2
+P1374,Patient_374,76,Female,Sunrise Medical,Dr. Zain,Diabetes,Chemotherapy,2024-01-10,2024-01-11,8867,30,No,Lahore,6
+P1375,Patient_375,87,Male,Green Valley Hospital,Dr. Rizwan,Diabetes,Vaccination,2024-01-11,2024-01-12,6568,45,No,Islamabad,4
+P1376,Patient_376,15,Male,Green Valley Hospital,Dr. Zain,Hypertension,Chemotherapy,2024-01-12,2024-01-13,13803,25,No,Peshawar,6
+P1377,Patient_377,66,Male,Hope Health Center,Dr. Sara,Diabetes,Physical Therapy,2024-01-13,2024-01-14,1029,4,No,Lahore,9
+P1378,Patient_378,32,Male,CityCare Hospital,Dr. Sara,Asthma,Observation,2024-01-14,2024-01-15,12051,83,No,Lahore,8
+P1379,Patient_379,87,Female,Green Valley Hospital,Dr. Sana,Diabetes,Observation,2024-01-15,2024-01-16,3799,51,No,Peshawar,1
+P1380,Patient_380,63,Female,Central Hospital,Dr. Sana,Arthritis,Physical Therapy,2024-01-16,2024-01-17,9755,74,No,Quetta,8
+P1381,Patient_381,86,Female,Green Valley Hospital,Dr. Adeel,Migraine,Surgery,2024-01-17,2024-01-18,11567,53,Yes,Peshawar,9
+P1382,Patient_382,51,Female,Wellness Point,Dr. Fatima,Diabetes,Vaccination,2024-01-18,2024-01-19,13220,32,No,Islamabad,6
+P1383,Patient_383,25,Male,MediLife Clinic,Dr. Zain,Migraine,Medication,2024-01-19,2024-01-20,1154,49,No,Quetta,5
+P1384,Patient_384,58,Male,Central Hospital,Dr. Zain,Fracture,Therapy,2024-01-20,2024-01-21,5844,37,Yes,Karachi,6
+P1385,Patient_385,63,Male,Central Hospital,Dr. Fatima,Flu,Observation,2024-01-21,2024-01-22,2000,26,No,Peshawar,6
+P1386,Patient_386,62,Female,Wellness Point,Dr. Sana,Asthma,Therapy,2024-01-22,2024-01-23,9749,97,No,Islamabad,9
+P1387,Patient_387,22,Male,Wellness Point,Dr. Adeel,Flu,Medication,2024-01-23,2024-01-24,7080,14,Yes,Quetta,4
+P1388,Patient_388,58,Female,Sunrise Medical,Dr. Fatima,Fracture,Chemotherapy,2024-01-24,2024-01-25,7169,95,No,Peshawar,2
+P1389,Patient_389,58,Female,CityCare Hospital,Dr. Adeel,Asthma,Therapy,2024-01-25,2024-01-26,9691,60,Yes,Lahore,9
+P1390,Patient_390,86,Male,MediLife Clinic,Dr. Adeel,Hypertension,Medication,2024-01-26,2024-01-27,3515,20,Yes,Peshawar,2
+P1391,Patient_391,49,Male,Hope Health Center,Dr. Adeel,Hypertension,Physical Therapy,2024-01-27,2024-01-28,542,45,Yes,Karachi,9
+P1392,Patient_392,52,Male,Central Hospital,Dr. Ali,Migraine,Surgery,2024-01-28,2024-01-29,11942,68,Yes,Peshawar,2
+P1393,Patient_393,42,Female,Hope Health Center,Dr. Sara,Fracture,Observation,2024-01-29,2024-01-30,6318,5,No,Quetta,8
+P1394,Patient_394,70,Male,Green Valley Hospital,Dr. Adeel,Migraine,Medication,2024-01-30,2024-01-31,4752,37,Yes,Quetta,9
+P1395,Patient_395,15,Female,Green Valley Hospital,Dr. Ali,COVID-19,Therapy,2024-01-31,2024-02-01,8039,61,Yes,Peshawar,9
+P1396,Patient_396,54,Male,Hope Health Center,Dr. Sana,Diabetes,Observation,2024-02-01,2024-02-02,7933,85,No,Quetta,9
+P1397,Patient_397,60,Female,Green Valley Hospital,Dr. Fatima,Allergy,Surgery,2024-02-02,2024-02-03,9470,61,Yes,Lahore,2
+P1398,Patient_398,8,Female,CityCare Hospital,Dr. Sara,COVID-19,Physical Therapy,2024-02-03,2024-02-04,7697,81,Yes,Peshawar,4
+P1399,Patient_399,53,Male,Wellness Point,Dr. Rizwan,Diabetes,Chemotherapy,2024-02-04,2024-02-05,14425,77,Yes,Lahore,7
+P1400,Patient_400,60,Female,Green Valley Hospital,Dr. Fatima,Asthma,Observation,2024-02-05,2024-02-06,4558,73,Yes,Lahore,2
+P1401,Patient_401,5,Female,Sunrise Medical,Dr. Sara,Migraine,Chemotherapy,2024-02-06,2024-02-07,6691,45,No,Islamabad,1
+P1402,Patient_402,68,Male,Green Valley Hospital,Dr. Rizwan,Asthma,Medication,2024-02-07,2024-02-08,9549,12,Yes,Peshawar,3
+P1403,Patient_403,6,Female,MediLife Clinic,Dr. Fatima,Asthma,Surgery,2024-02-08,2024-02-09,11926,94,No,Quetta,4
+P1404,Patient_404,47,Male,CityCare Hospital,Dr. Sara,Diabetes,Therapy,2024-02-09,2024-02-10,10133,93,No,Lahore,8
+P1405,Patient_405,55,Female,MediLife Clinic,Dr. Fatima,Fracture,Surgery,2024-02-10,2024-02-11,2409,2,Yes,Islamabad,6
+P1406,Patient_406,40,Male,MediLife Clinic,Dr. Fatima,Diabetes,Surgery,2024-02-11,2024-02-12,14238,93,Yes,Peshawar,2
+P1407,Patient_407,52,Male,Sunrise Medical,Dr. Rizwan,Heart Disease,Vaccination,2024-02-12,2024-02-13,6368,5,Yes,Peshawar,9
+P1408,Patient_408,16,Female,CityCare Hospital,Dr. Fatima,Hypertension,Surgery,2024-02-13,2024-02-14,1010,92,Yes,Karachi,2
+P1409,Patient_409,13,Female,CityCare Hospital,Dr. Fatima,Hypertension,Surgery,2024-02-14,2024-02-15,4440,7,No,Karachi,5
+P1410,Patient_410,30,Female,CityCare Hospital,Dr. Rizwan,COVID-19,Observation,2024-02-15,2024-02-16,12929,43,No,Lahore,4
+P1411,Patient_411,19,Female,CityCare Hospital,Dr. Sana,Hypertension,Therapy,2024-02-16,2024-02-17,4109,32,No,Karachi,7
+P1412,Patient_412,17,Female,CityCare Hospital,Dr. Adeel,Diabetes,Observation,2024-02-17,2024-02-18,6728,80,Yes,Lahore,8
+P1413,Patient_413,63,Male,Sunrise Medical,Dr. Zain,Arthritis,Observation,2024-02-18,2024-02-19,2269,74,No,Quetta,5
+P1414,Patient_414,19,Female,Green Valley Hospital,Dr. Khan,Migraine,Medication,2024-02-19,2024-02-20,2272,76,Yes,Lahore,5
+P1415,Patient_415,58,Male,MediLife Clinic,Dr. Ali,Diabetes,Observation,2024-02-20,2024-02-21,5768,49,Yes,Karachi,2
+P1416,Patient_416,55,Male,CityCare Hospital,Dr. Khan,Diabetes,Vaccination,2024-02-21,2024-02-22,6413,10,Yes,Quetta,8
+P1417,Patient_417,62,Female,Central Hospital,Dr. Khan,Allergy,Vaccination,2024-02-22,2024-02-23,8415,94,Yes,Karachi,2
+P1418,Patient_418,23,Male,Green Valley Hospital,Dr. Sara,Migraine,Chemotherapy,2024-02-23,2024-02-24,8136,27,Yes,Lahore,6
+P1419,Patient_419,9,Male,Green Valley Hospital,Dr. Adeel,Heart Disease,Medication,2024-02-24,2024-02-25,11450,69,No,Islamabad,8
+P1420,Patient_420,12,Male,MediLife Clinic,Dr. Sara,Hypertension,Chemotherapy,2024-02-25,2024-02-26,6889,40,No,Peshawar,6
+P1421,Patient_421,1,Male,Sunrise Medical,Dr. Adeel,Migraine,Chemotherapy,2024-02-26,2024-02-27,14119,15,Yes,Karachi,4
+P1422,Patient_422,58,Female,Hope Health Center,Dr. Rizwan,Hypertension,Physical Therapy,2024-02-27,2024-02-28,885,67,No,Lahore,4
+P1423,Patient_423,1,Male,Hope Health Center,Dr. Rizwan,COVID-19,Therapy,2024-02-28,2024-02-29,6239,98,Yes,Quetta,6
+P1424,Patient_424,34,Female,Green Valley Hospital,Dr. Zain,Migraine,Therapy,2024-02-29,2024-03-01,6444,47,Yes,Karachi,4
+P1425,Patient_425,48,Female,Wellness Point,Dr. Adeel,Hypertension,Observation,2024-03-01,2024-03-02,2516,55,Yes,Karachi,8
+P1426,Patient_426,89,Male,Wellness Point,Dr. Fatima,Heart Disease,Observation,2024-03-02,2024-03-03,9088,63,No,Peshawar,9
+P1427,Patient_427,1,Female,MediLife Clinic,Dr. Sana,Flu,Physical Therapy,2024-03-03,2024-03-04,12464,58,Yes,Lahore,1
+P1428,Patient_428,16,Female,Hope Health Center,Dr. Zain,Asthma,Observation,2024-03-04,2024-03-05,4254,89,Yes,Islamabad,4
+P1429,Patient_429,61,Female,Green Valley Hospital,Dr. Zain,Asthma,Therapy,2024-03-05,2024-03-06,14866,61,No,Quetta,4
+P1430,Patient_430,64,Male,Sunrise Medical,Dr. Fatima,Heart Disease,Chemotherapy,2024-03-06,2024-03-07,5719,75,No,Lahore,2
+P1431,Patient_431,63,Female,Hope Health Center,Dr. Sana,Allergy,Surgery,2024-03-07,2024-03-08,2036,10,No,Quetta,6
+P1432,Patient_432,69,Female,Green Valley Hospital,Dr. Sara,Flu,Vaccination,2024-03-08,2024-03-09,10448,88,Yes,Karachi,3
+P1433,Patient_433,22,Female,Green Valley Hospital,Dr. Sana,COVID-19,Surgery,2024-03-09,2024-03-10,3907,17,Yes,Peshawar,7
+P1434,Patient_434,67,Male,CityCare Hospital,Dr. Sara,Heart Disease,Surgery,2024-03-10,2024-03-11,7251,18,No,Peshawar,5
+P1435,Patient_435,76,Female,Sunrise Medical,Dr. Rizwan,Asthma,Therapy,2024-03-11,2024-03-12,9593,86,Yes,Islamabad,4
+P1436,Patient_436,26,Male,CityCare Hospital,Dr. Khan,Asthma,Surgery,2024-03-12,2024-03-13,12455,54,No,Peshawar,5
+P1437,Patient_437,16,Male,MediLife Clinic,Dr. Rizwan,Asthma,Physical Therapy,2024-03-13,2024-03-14,11432,81,No,Karachi,8
+P1438,Patient_438,51,Male,CityCare Hospital,Dr. Rizwan,Fracture,Medication,2024-03-14,2024-03-15,3336,25,Yes,Islamabad,3
+P1439,Patient_439,86,Male,Central Hospital,Dr. Khan,Heart Disease,Observation,2024-03-15,2024-03-16,2452,5,Yes,Lahore,7
+P1440,Patient_440,57,Male,CityCare Hospital,Dr. Sana,Diabetes,Medication,2024-03-16,2024-03-17,2032,3,No,Peshawar,6
+P1441,Patient_441,29,Male,Central Hospital,Dr. Zain,COVID-19,Chemotherapy,2024-03-17,2024-03-18,11013,28,No,Islamabad,1
+P1442,Patient_442,78,Female,Hope Health Center,Dr. Sana,Asthma,Vaccination,2024-03-18,2024-03-19,8656,58,No,Karachi,7
+P1443,Patient_443,69,Male,Wellness Point,Dr. Sara,Hypertension,Observation,2024-03-19,2024-03-20,5016,97,No,Quetta,7
+P1444,Patient_444,47,Female,Green Valley Hospital,Dr. Fatima,Heart Disease,Surgery,2024-03-20,2024-03-21,5598,16,Yes,Quetta,1
+P1445,Patient_445,62,Female,Central Hospital,Dr. Sara,Fracture,Vaccination,2024-03-21,2024-03-22,10682,42,No,Karachi,9
+P1446,Patient_446,69,Male,Sunrise Medical,Dr. Fatima,Heart Disease,Observation,2024-03-22,2024-03-23,1046,79,No,Karachi,6
+P1447,Patient_447,76,Female,CityCare Hospital,Dr. Rizwan,COVID-19,Physical Therapy,2024-03-23,2024-03-24,13965,65,No,Quetta,2
+P1448,Patient_448,16,Female,Central Hospital,Dr. Khan,Fracture,Physical Therapy,2024-03-24,2024-03-25,9669,33,Yes,Islamabad,5
+P1449,Patient_449,48,Female,Sunrise Medical,Dr. Rizwan,COVID-19,Physical Therapy,2024-03-25,2024-03-26,1539,7,Yes,Quetta,4
+P1450,Patient_450,85,Female,Wellness Point,Dr. Adeel,Heart Disease,Physical Therapy,2024-03-26,2024-03-27,11472,12,No,Karachi,7
+P1451,Patient_451,39,Male,Wellness Point,Dr. Sana,Diabetes,Surgery,2024-03-27,2024-03-28,7830,7,Yes,Peshawar,8
+P1452,Patient_452,33,Female,CityCare Hospital,Dr. Fatima,COVID-19,Medication,2024-03-28,2024-03-29,4957,93,Yes,Lahore,1
+P1453,Patient_453,23,Male,MediLife Clinic,Dr. Sara,Fracture,Observation,2024-03-29,2024-03-30,440,95,Yes,Peshawar,5
+P1454,Patient_454,10,Female,CityCare Hospital,Dr. Khan,Fracture,Surgery,2024-03-30,2024-03-31,11281,99,No,Peshawar,3
+P1455,Patient_455,69,Female,Hope Health Center,Dr. Fatima,COVID-19,Physical Therapy,2024-03-31,2024-04-01,482,93,No,Karachi,1
+P1456,Patient_456,34,Male,Central Hospital,Dr. Sara,Arthritis,Chemotherapy,2024-04-01,2024-04-02,13391,64,Yes,Quetta,3
+P1457,Patient_457,52,Female,Green Valley Hospital,Dr. Sana,Heart Disease,Medication,2024-04-02,2024-04-03,9848,42,No,Islamabad,6
+P1458,Patient_458,10,Female,MediLife Clinic,Dr. Rizwan,Arthritis,Chemotherapy,2024-04-03,2024-04-04,8591,38,No,Peshawar,7
+P1459,Patient_459,19,Female,CityCare Hospital,Dr. Sana,Allergy,Vaccination,2024-04-04,2024-04-05,238,80,Yes,Quetta,8
+P1460,Patient_460,58,Male,Sunrise Medical,Dr. Ali,Heart Disease,Chemotherapy,2024-04-05,2024-04-06,458,58,Yes,Islamabad,4
+P1461,Patient_461,1,Female,MediLife Clinic,Dr. Adeel,COVID-19,Vaccination,2024-04-06,2024-04-07,5031,83,No,Peshawar,3
+P1462,Patient_462,69,Male,Central Hospital,Dr. Ali,Flu,Vaccination,2024-04-07,2024-04-08,9814,87,Yes,Islamabad,5
+P1463,Patient_463,4,Female,MediLife Clinic,Dr. Khan,COVID-19,Physical Therapy,2024-04-08,2024-04-09,3556,85,No,Quetta,9
+P1464,Patient_464,16,Male,Central Hospital,Dr. Fatima,Arthritis,Vaccination,2024-04-09,2024-04-10,1727,92,No,Lahore,6
+P1465,Patient_465,24,Male,CityCare Hospital,Dr. Khan,Diabetes,Therapy,2024-04-10,2024-04-11,14370,85,Yes,Quetta,9
+P1466,Patient_466,80,Female,Central Hospital,Dr. Rizwan,COVID-19,Observation,2024-04-11,2024-04-12,9595,43,No,Karachi,6
+P1467,Patient_467,2,Female,MediLife Clinic,Dr. Sara,COVID-19,Observation,2024-04-12,2024-04-13,6726,8,No,Islamabad,2
+P1468,Patient_468,32,Male,Sunrise Medical,Dr. Sana,Diabetes,Physical Therapy,2024-04-13,2024-04-14,5104,36,Yes,Lahore,5
+P1469,Patient_469,84,Male,Wellness Point,Dr. Ali,COVID-19,Therapy,2024-04-14,2024-04-15,9426,73,Yes,Islamabad,9
+P1470,Patient_470,24,Female,MediLife Clinic,Dr. Zain,Asthma,Chemotherapy,2024-04-15,2024-04-16,10478,35,Yes,Islamabad,8
+P1471,Patient_471,12,Male,Central Hospital,Dr. Ali,Flu,Surgery,2024-04-16,2024-04-17,13383,91,No,Peshawar,7
+P1472,Patient_472,50,Female,Wellness Point,Dr. Rizwan,Hypertension,Chemotherapy,2024-04-17,2024-04-18,14870,27,Yes,Karachi,1
+P1473,Patient_473,35,Female,Central Hospital,Dr. Ali,Flu,Surgery,2024-04-18,2024-04-19,6752,41,Yes,Islamabad,4
+P1474,Patient_474,33,Female,Sunrise Medical,Dr. Rizwan,COVID-19,Vaccination,2024-04-19,2024-04-20,6516,42,Yes,Quetta,7
+P1475,Patient_475,33,Female,Central Hospital,Dr. Zain,Asthma,Medication,2024-04-20,2024-04-21,3270,84,Yes,Quetta,7
+P1476,Patient_476,61,Male,CityCare Hospital,Dr. Khan,Heart Disease,Surgery,2024-04-21,2024-04-22,3935,87,No,Peshawar,6
+P1477,Patient_477,51,Female,Green Valley Hospital,Dr. Sana,COVID-19,Medication,2024-04-22,2024-04-23,8117,41,No,Karachi,8
+P1478,Patient_478,43,Male,MediLife Clinic,Dr. Fatima,Arthritis,Observation,2024-04-23,2024-04-24,2251,65,Yes,Karachi,6
+P1479,Patient_479,12,Female,Green Valley Hospital,Dr. Sara,Asthma,Medication,2024-04-24,2024-04-25,9529,54,No,Quetta,3
+P1480,Patient_480,67,Male,Central Hospital,Dr. Fatima,Diabetes,Observation,2024-04-25,2024-04-26,14172,71,Yes,Lahore,4
+P1481,Patient_481,65,Female,Sunrise Medical,Dr. Khan,Asthma,Therapy,2024-04-26,2024-04-27,12027,47,Yes,Peshawar,3
+P1482,Patient_482,33,Male,MediLife Clinic,Dr. Sara,Diabetes,Therapy,2024-04-27,2024-04-28,7005,90,No,Peshawar,1
+P1483,Patient_483,40,Male,Central Hospital,Dr. Ali,Allergy,Physical Therapy,2024-04-28,2024-04-29,2934,21,No,Quetta,5
+P1484,Patient_484,74,Female,Wellness Point,Dr. Zain,Hypertension,Physical Therapy,2024-04-29,2024-04-30,12552,26,Yes,Quetta,1
+P1485,Patient_485,43,Female,Hope Health Center,Dr. Zain,Migraine,Vaccination,2024-04-30,2024-05-01,9290,92,Yes,Lahore,1
+P1486,Patient_486,44,Female,Central Hospital,Dr. Adeel,Asthma,Surgery,2024-05-01,2024-05-02,2667,66,No,Lahore,2
+P1487,Patient_487,29,Female,Green Valley Hospital,Dr. Khan,Fracture,Vaccination,2024-05-02,2024-05-03,1407,12,Yes,Karachi,4
+P1488,Patient_488,13,Male,MediLife Clinic,Dr. Khan,Arthritis,Observation,2024-05-03,2024-05-04,14952,44,No,Peshawar,6
+P1489,Patient_489,12,Female,Green Valley Hospital,Dr. Sana,COVID-19,Vaccination,2024-05-04,2024-05-05,8948,9,Yes,Peshawar,8
+P1490,Patient_490,46,Male,MediLife Clinic,Dr. Fatima,Arthritis,Medication,2024-05-05,2024-05-06,2760,99,Yes,Quetta,3
+P1491,Patient_491,2,Male,Central Hospital,Dr. Khan,Flu,Observation,2024-05-06,2024-05-07,10503,8,No,Karachi,1
+P1492,Patient_492,35,Female,CityCare Hospital,Dr. Khan,Migraine,Physical Therapy,2024-05-07,2024-05-08,10201,53,No,Peshawar,3
+P1493,Patient_493,87,Male,Wellness Point,Dr. Ali,Flu,Therapy,2024-05-08,2024-05-09,3830,26,No,Karachi,3
+P1494,Patient_494,81,Male,Central Hospital,Dr. Ali,Allergy,Physical Therapy,2024-05-09,2024-05-10,10338,33,No,Karachi,5
+P1495,Patient_495,8,Male,Green Valley Hospital,Dr. Sara,Migraine,Surgery,2024-05-10,2024-05-11,6307,0,No,Quetta,4
+P1496,Patient_496,26,Male,Hope Health Center,Dr. Rizwan,Migraine,Observation,2024-05-11,2024-05-12,3262,31,No,Karachi,4
+P1497,Patient_497,74,Female,Hope Health Center,Dr. Rizwan,Flu,Observation,2024-05-12,2024-05-13,1240,88,No,Lahore,9
+P1498,Patient_498,34,Female,Sunrise Medical,Dr. Adeel,Diabetes,Medication,2024-05-13,2024-05-14,14277,92,Yes,Lahore,7
+P1499,Patient_499,7,Female,MediLife Clinic,Dr. Rizwan,Flu,Surgery,2024-05-14,2024-05-15,8558,70,Yes,Islamabad,4
+P1500,Patient_500,68,Female,Green Valley Hospital,Dr. Sana,Arthritis,Therapy,2024-05-15,2024-05-16,10137,66,Yes,Quetta,3
+P1501,Patient_501,58,Male,Sunrise Medical,Dr. Adeel,Diabetes,Chemotherapy,2024-05-16,2024-05-17,1808,83,No,Islamabad,6
+P1502,Patient_502,75,Male,Green Valley Hospital,Dr. Sara,Arthritis,Observation,2024-05-17,2024-05-18,3730,19,No,Lahore,3
+P1503,Patient_503,29,Female,MediLife Clinic,Dr. Ali,Allergy,Observation,2024-05-18,2024-05-19,3311,93,No,Islamabad,6
+P1504,Patient_504,36,Female,Central Hospital,Dr. Rizwan,COVID-19,Medication,2024-05-19,2024-05-20,10585,34,Yes,Quetta,9
+P1505,Patient_505,89,Female,Central Hospital,Dr. Fatima,Heart Disease,Vaccination,2024-05-20,2024-05-21,12024,98,No,Quetta,6
+P1506,Patient_506,21,Male,Hope Health Center,Dr. Ali,Diabetes,Therapy,2024-05-21,2024-05-22,12121,90,No,Karachi,4
+P1507,Patient_507,36,Female,Central Hospital,Dr. Zain,Allergy,Physical Therapy,2024-05-22,2024-05-23,6638,89,Yes,Peshawar,5
+P1508,Patient_508,10,Female,Central Hospital,Dr. Sana,Fracture,Surgery,2024-05-23,2024-05-24,9802,77,No,Karachi,6
+P1509,Patient_509,73,Female,CityCare Hospital,Dr. Ali,Allergy,Observation,2024-05-24,2024-05-25,575,16,Yes,Quetta,3
+P1510,Patient_510,24,Male,Hope Health Center,Dr. Sana,Flu,Observation,2024-05-25,2024-05-26,7784,17,Yes,Lahore,8
+P1511,Patient_511,64,Male,Sunrise Medical,Dr. Sana,Flu,Physical Therapy,2024-05-26,2024-05-27,9268,44,No,Lahore,4
+P1512,Patient_512,49,Male,Wellness Point,Dr. Sana,Heart Disease,Therapy,2024-05-27,2024-05-28,1307,92,No,Karachi,8
+P1513,Patient_513,36,Male,CityCare Hospital,Dr. Sara,Allergy,Vaccination,2024-05-28,2024-05-29,13431,83,No,Quetta,3
+P1514,Patient_514,82,Male,Sunrise Medical,Dr. Sana,Hypertension,Observation,2024-05-29,2024-05-30,2060,52,Yes,Lahore,7
+P1515,Patient_515,24,Male,MediLife Clinic,Dr. Sana,COVID-19,Therapy,2024-05-30,2024-05-31,657,90,Yes,Quetta,9
+P1516,Patient_516,23,Male,CityCare Hospital,Dr. Zain,Flu,Physical Therapy,2024-05-31,2024-06-01,13405,81,Yes,Lahore,4
+P1517,Patient_517,62,Male,Sunrise Medical,Dr. Fatima,Heart Disease,Medication,2024-06-01,2024-06-02,13993,67,No,Quetta,8
+P1518,Patient_518,37,Female,MediLife Clinic,Dr. Adeel,COVID-19,Vaccination,2024-06-02,2024-06-03,982,64,No,Islamabad,3
+P1519,Patient_519,12,Female,Hope Health Center,Dr. Khan,Allergy,Surgery,2024-06-03,2024-06-04,10486,0,No,Quetta,7
+P1520,Patient_520,55,Male,Wellness Point,Dr. Zain,Allergy,Observation,2024-06-04,2024-06-05,4861,57,No,Quetta,3
+P1521,Patient_521,13,Male,MediLife Clinic,Dr. Adeel,Migraine,Therapy,2024-06-05,2024-06-06,10959,25,Yes,Karachi,7
+P1522,Patient_522,23,Female,Central Hospital,Dr. Sana,Heart Disease,Medication,2024-06-06,2024-06-07,5967,19,Yes,Islamabad,6
+P1523,Patient_523,89,Male,Green Valley Hospital,Dr. Fatima,Flu,Surgery,2024-06-07,2024-06-08,7063,86,Yes,Peshawar,2
+P1524,Patient_524,30,Male,MediLife Clinic,Dr. Ali,Hypertension,Chemotherapy,2024-06-08,2024-06-09,13251,9,Yes,Karachi,3
+P1525,Patient_525,17,Male,MediLife Clinic,Dr. Fatima,Allergy,Therapy,2024-06-09,2024-06-10,12969,58,No,Peshawar,6
+P1526,Patient_526,62,Female,Wellness Point,Dr. Zain,Hypertension,Therapy,2024-06-10,2024-06-11,7266,74,No,Lahore,4
+P1527,Patient_527,84,Female,Green Valley Hospital,Dr. Sana,Allergy,Surgery,2024-06-11,2024-06-12,13082,40,No,Peshawar,6
+P1528,Patient_528,89,Female,Central Hospital,Dr. Fatima,Flu,Medication,2024-06-12,2024-06-13,8029,4,Yes,Quetta,1
+P1529,Patient_529,86,Female,Sunrise Medical,Dr. Rizwan,COVID-19,Chemotherapy,2024-06-13,2024-06-14,5447,64,Yes,Peshawar,1
+P1530,Patient_530,13,Female,Sunrise Medical,Dr. Fatima,Asthma,Physical Therapy,2024-06-14,2024-06-15,7369,16,No,Karachi,3
+P1531,Patient_531,59,Male,MediLife Clinic,Dr. Sana,COVID-19,Medication,2024-06-15,2024-06-16,9902,21,No,Karachi,8
+P1532,Patient_532,19,Female,Green Valley Hospital,Dr. Sara,Allergy,Vaccination,2024-06-16,2024-06-17,11780,97,Yes,Peshawar,8
+P1533,Patient_533,49,Male,Green Valley Hospital,Dr. Rizwan,Arthritis,Observation,2024-06-17,2024-06-18,8225,40,No,Karachi,4
+P1534,Patient_534,12,Male,Central Hospital,Dr. Fatima,Asthma,Surgery,2024-06-18,2024-06-19,13627,92,Yes,Karachi,6
+P1535,Patient_535,61,Female,Wellness Point,Dr. Khan,Asthma,Physical Therapy,2024-06-19,2024-06-20,2554,67,Yes,Peshawar,8
+P1536,Patient_536,19,Female,Hope Health Center,Dr. Khan,Hypertension,Chemotherapy,2024-06-20,2024-06-21,4594,68,Yes,Islamabad,7
+P1537,Patient_537,76,Male,Sunrise Medical,Dr. Fatima,Heart Disease,Surgery,2024-06-21,2024-06-22,2046,10,No,Islamabad,7
+P1538,Patient_538,9,Male,Wellness Point,Dr. Sara,Hypertension,Surgery,2024-06-22,2024-06-23,13102,55,No,Lahore,4
+P1539,Patient_539,71,Male,CityCare Hospital,Dr. Ali,Hypertension,Medication,2024-06-23,2024-06-24,13091,50,Yes,Karachi,9
+P1540,Patient_540,28,Female,Sunrise Medical,Dr. Sana,Arthritis,Observation,2024-06-24,2024-06-25,2908,20,No,Peshawar,6
+P1541,Patient_541,78,Female,Wellness Point,Dr. Khan,COVID-19,Vaccination,2024-06-25,2024-06-26,6742,98,Yes,Karachi,3
+P1542,Patient_542,52,Female,Sunrise Medical,Dr. Ali,COVID-19,Therapy,2024-06-26,2024-06-27,3925,75,Yes,Quetta,5
+P1543,Patient_543,83,Female,Hope Health Center,Dr. Fatima,Fracture,Therapy,2024-06-27,2024-06-28,3636,25,Yes,Karachi,5
+P1544,Patient_544,16,Female,CityCare Hospital,Dr. Zain,Allergy,Surgery,2024-06-28,2024-06-29,14102,18,Yes,Karachi,5
+P1545,Patient_545,69,Male,Hope Health Center,Dr. Ali,Arthritis,Observation,2024-06-29,2024-06-30,6168,59,No,Islamabad,8
+P1546,Patient_546,12,Female,Central Hospital,Dr. Rizwan,Fracture,Chemotherapy,2024-06-30,2024-07-01,3902,70,Yes,Peshawar,9
+P1547,Patient_547,25,Male,CityCare Hospital,Dr. Adeel,Flu,Chemotherapy,2024-07-01,2024-07-02,12469,46,Yes,Karachi,9
+P1548,Patient_548,52,Male,MediLife Clinic,Dr. Khan,Allergy,Physical Therapy,2024-07-02,2024-07-03,4799,70,No,Islamabad,6
+P1549,Patient_549,85,Male,Wellness Point,Dr. Fatima,Allergy,Medication,2024-07-03,2024-07-04,2070,25,Yes,Lahore,6
+P1550,Patient_550,53,Female,CityCare Hospital,Dr. Zain,Migraine,Observation,2024-07-04,2024-07-05,5906,39,Yes,Islamabad,9
+P1551,Patient_551,23,Female,Central Hospital,Dr. Sana,Migraine,Observation,2024-07-05,2024-07-06,6242,4,No,Islamabad,4
+P1552,Patient_552,16,Female,Central Hospital,Dr. Zain,Diabetes,Medication,2024-07-06,2024-07-07,12114,20,No,Islamabad,6
+P1553,Patient_553,57,Male,Hope Health Center,Dr. Sara,Diabetes,Chemotherapy,2024-07-07,2024-07-08,2919,77,No,Karachi,4
+P1554,Patient_554,39,Male,Sunrise Medical,Dr. Rizwan,Hypertension,Chemotherapy,2024-07-08,2024-07-09,9194,3,Yes,Karachi,1
+P1555,Patient_555,53,Male,CityCare Hospital,Dr. Fatima,Flu,Chemotherapy,2024-07-09,2024-07-10,464,22,No,Lahore,7
+P1556,Patient_556,42,Male,Wellness Point,Dr. Sana,Asthma,Surgery,2024-07-10,2024-07-11,4358,83,No,Quetta,6
+P1557,Patient_557,58,Male,CityCare Hospital,Dr. Sara,Asthma,Observation,2024-07-11,2024-07-12,3219,14,Yes,Quetta,9
+P1558,Patient_558,39,Male,Green Valley Hospital,Dr. Sara,Migraine,Therapy,2024-07-12,2024-07-13,10850,92,Yes,Quetta,7
+P1559,Patient_559,14,Female,Sunrise Medical,Dr. Fatima,Migraine,Medication,2024-07-13,2024-07-14,1963,7,Yes,Lahore,7
+P1560,Patient_560,5,Female,Wellness Point,Dr. Rizwan,Migraine,Chemotherapy,2024-07-14,2024-07-15,215,40,Yes,Quetta,2
+P1561,Patient_561,35,Female,Wellness Point,Dr. Ali,Arthritis,Physical Therapy,2024-07-15,2024-07-16,7184,18,Yes,Quetta,9
+P1562,Patient_562,87,Female,MediLife Clinic,Dr. Ali,Heart Disease,Chemotherapy,2024-07-16,2024-07-17,8116,45,No,Islamabad,9
+P1563,Patient_563,75,Male,Hope Health Center,Dr. Sara,Diabetes,Chemotherapy,2024-07-17,2024-07-18,2484,27,No,Karachi,6
+P1564,Patient_564,18,Male,MediLife Clinic,Dr. Ali,Arthritis,Vaccination,2024-07-18,2024-07-19,13268,90,No,Karachi,3
+P1565,Patient_565,76,Female,Wellness Point,Dr. Adeel,COVID-19,Surgery,2024-07-19,2024-07-20,4035,67,Yes,Islamabad,1
+P1566,Patient_566,9,Male,Sunrise Medical,Dr. Sara,Asthma,Medication,2024-07-20,2024-07-21,13227,14,Yes,Islamabad,4
+P1567,Patient_567,74,Female,CityCare Hospital,Dr. Sara,Allergy,Vaccination,2024-07-21,2024-07-22,14582,98,Yes,Islamabad,3
+P1568,Patient_568,58,Female,CityCare Hospital,Dr. Sana,Diabetes,Vaccination,2024-07-22,2024-07-23,7842,36,No,Karachi,1
+P1569,Patient_569,17,Female,Sunrise Medical,Dr. Ali,Fracture,Physical Therapy,2024-07-23,2024-07-24,5542,0,No,Quetta,3
+P1570,Patient_570,7,Male,Wellness Point,Dr. Rizwan,COVID-19,Observation,2024-07-24,2024-07-25,2590,66,Yes,Islamabad,4
+P1571,Patient_571,46,Female,Central Hospital,Dr. Sara,Diabetes,Physical Therapy,2024-07-25,2024-07-26,7080,23,No,Lahore,8
+P1572,Patient_572,13,Female,CityCare Hospital,Dr. Zain,Arthritis,Observation,2024-07-26,2024-07-27,13424,26,Yes,Islamabad,9
+P1573,Patient_573,40,Female,Central Hospital,Dr. Rizwan,Flu,Observation,2024-07-27,2024-07-28,9234,39,No,Peshawar,3
+P1574,Patient_574,42,Male,CityCare Hospital,Dr. Adeel,Allergy,Medication,2024-07-28,2024-07-29,7761,62,No,Islamabad,6
+P1575,Patient_575,9,Male,CityCare Hospital,Dr. Sana,Diabetes,Chemotherapy,2024-07-29,2024-07-30,1824,60,No,Karachi,5
+P1576,Patient_576,50,Female,Hope Health Center,Dr. Fatima,Heart Disease,Medication,2024-07-30,2024-07-31,10626,35,Yes,Islamabad,6
+P1577,Patient_577,27,Male,Hope Health Center,Dr. Rizwan,Migraine,Surgery,2024-07-31,2024-08-01,8282,97,No,Peshawar,4
+P1578,Patient_578,66,Male,Green Valley Hospital,Dr. Sara,Migraine,Observation,2024-08-01,2024-08-02,2867,92,No,Lahore,6
+P1579,Patient_579,5,Male,MediLife Clinic,Dr. Adeel,Allergy,Vaccination,2024-08-02,2024-08-03,1237,23,Yes,Quetta,7
+P1580,Patient_580,29,Male,Sunrise Medical,Dr. Khan,Arthritis,Chemotherapy,2024-08-03,2024-08-04,10819,23,No,Islamabad,9
+P1581,Patient_581,37,Male,Sunrise Medical,Dr. Adeel,Migraine,Therapy,2024-08-04,2024-08-05,4217,3,Yes,Peshawar,7
+P1582,Patient_582,38,Male,Sunrise Medical,Dr. Adeel,Diabetes,Surgery,2024-08-05,2024-08-06,3520,66,Yes,Peshawar,6
+P1583,Patient_583,83,Male,Green Valley Hospital,Dr. Sana,Fracture,Medication,2024-08-06,2024-08-07,5945,33,Yes,Lahore,1
+P1584,Patient_584,8,Male,Hope Health Center,Dr. Fatima,Asthma,Physical Therapy,2024-08-07,2024-08-08,4878,56,Yes,Karachi,2
+P1585,Patient_585,65,Male,Wellness Point,Dr. Khan,Asthma,Surgery,2024-08-08,2024-08-09,4006,48,Yes,Islamabad,1
+P1586,Patient_586,86,Male,Central Hospital,Dr. Ali,COVID-19,Surgery,2024-08-09,2024-08-10,3737,86,No,Peshawar,9
+P1587,Patient_587,17,Female,Central Hospital,Dr. Ali,Hypertension,Chemotherapy,2024-08-10,2024-08-11,3053,52,Yes,Lahore,9
+P1588,Patient_588,71,Female,Wellness Point,Dr. Rizwan,Flu,Surgery,2024-08-11,2024-08-12,6029,22,Yes,Quetta,7
+P1589,Patient_589,89,Male,Green Valley Hospital,Dr. Adeel,Allergy,Surgery,2024-08-12,2024-08-13,10659,68,Yes,Peshawar,2
+P1590,Patient_590,45,Female,Wellness Point,Dr. Zain,COVID-19,Therapy,2024-08-13,2024-08-14,12513,94,Yes,Lahore,6
+P1591,Patient_591,4,Female,Sunrise Medical,Dr. Sana,Hypertension,Physical Therapy,2024-08-14,2024-08-15,376,52,No,Karachi,4
+P1592,Patient_592,36,Male,MediLife Clinic,Dr. Zain,Arthritis,Physical Therapy,2024-08-15,2024-08-16,2099,61,Yes,Karachi,1
+P1593,Patient_593,70,Male,CityCare Hospital,Dr. Sana,Heart Disease,Physical Therapy,2024-08-16,2024-08-17,1327,40,No,Peshawar,1
+P1594,Patient_594,31,Male,Central Hospital,Dr. Ali,Heart Disease,Observation,2024-08-17,2024-08-18,6437,56,Yes,Peshawar,5
+P1595,Patient_595,19,Female,Hope Health Center,Dr. Rizwan,Flu,Vaccination,2024-08-18,2024-08-19,12044,59,No,Islamabad,2
+P1596,Patient_596,61,Female,Hope Health Center,Dr. Rizwan,Migraine,Physical Therapy,2024-08-19,2024-08-20,3835,53,Yes,Lahore,4
+P1597,Patient_597,54,Male,Green Valley Hospital,Dr. Rizwan,Diabetes,Surgery,2024-08-20,2024-08-21,795,69,Yes,Peshawar,1
+P1598,Patient_598,39,Male,Hope Health Center,Dr. Khan,COVID-19,Surgery,2024-08-21,2024-08-22,9601,56,No,Islamabad,4
+P1599,Patient_599,74,Male,Sunrise Medical,Dr. Fatima,COVID-19,Physical Therapy,2024-08-22,2024-08-23,4252,9,Yes,Islamabad,6
